@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conference Deadlines</title>
+  <meta name="description" content="Live deadlines for top EDA, computer architecture and AI conferences.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏳</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap">
+    <div class="title-row">
+      <div>
+        <h1>Conference Deadlines</h1>
+        <p class="sub">EDA · Computer Architecture · AI — updated automatically twice a day</p>
+      </div>
+      <div class="links">
+        <a id="ics-link" href="deadlines.ics" title="Subscribe in Google Calendar / Apple Calendar / Outlook">📅 Subscribe (.ics)</a>
+        <a id="repo-link" href="#" hidden>GitHub</a>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="seg" id="cat-filter" role="group" aria-label="Area">
+        <button data-cat="all" class="on">All</button>
+        <button data-cat="EDA">EDA</button>
+        <button data-cat="Architecture">Architecture</button>
+        <button data-cat="AI">AI</button>
+      </div>
+      <div class="seg" id="view-switch" role="group" aria-label="View">
+        <button data-view="list" class="on">List</button>
+        <button data-view="timeline">Timeline</button>
+      </div>
+      <label class="chk"><input type="checkbox" id="top-only" checked> Top-tier only</label>
+      <label class="chk"><input type="checkbox" id="show-est" checked> Show estimated</label>
+      <select id="tz" aria-label="Display timezone">
+        <option value="local">Local time</option>
+        <option value="Etc/GMT+12">AoE (UTC−12)</option>
+        <option value="UTC">UTC</option>
+        <option value="Asia/Shanghai">Beijing (UTC+8)</option>
+        <option value="America/New_York">US Eastern</option>
+        <option value="America/Los_Angeles">US Pacific</option>
+      </select>
+      <input type="search" id="q" placeholder="Search…" aria-label="Search conferences">
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="list"></section>
+    <section id="timeline" hidden></section>
+    <p id="empty" hidden>No conferences match the filters.</p>
+  </main>
+
+  <footer class="wrap">
+    <span id="updated"></span>
+    · Data: <a href="https://github.com/ccfddl/ccf-deadlines">ccfddl/ccf-deadlines</a> + manual entries.
+    Always confirm on the official site.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

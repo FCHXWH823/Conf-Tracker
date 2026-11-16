@@ -1,0 +1,1757 @@
+{
+ "updated_at": "2026-11-16T23:27:15Z",
+ "source": "https://github.com/ccfddl/ccf-deadlines",
+ "conferences": [
+  {
+   "id": "isca",
+   "title": "ISCA",
+   "description": "International Symposium on Computer Architecture",
+   "category": "Architecture",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "isca",
+   "year": 2027,
+   "link": "https://iscaconf.org/isca2027/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "June 5-9, 2027",
+   "place": "Atlanta, Georgia, USA",
+   "event_start": "2027-06-05",
+   "event_end": "2027-06-09",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract (round 1)",
+     "time": "2026-11-10T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 1)",
+     "time": "2026-11-17T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract (round 2)",
+     "time": "2026-12-07T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 2)",
+     "time": "2026-12-14T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 2)",
+     "time": "2027-02-27T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 1)",
+     "time": "2027-03-09T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification (round 1)",
+     "time": "2027-03-27T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification (round 2)",
+     "time": "2027-03-27T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2022-11-22T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2023-11-22T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-11-23T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-11-18T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "cvpr",
+   "title": "CVPR",
+   "description": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "cvpr",
+   "year": 2027,
+   "link": "https://cvpr.thecvf.com/Conferences/2027",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "UTC-12",
+   "date": "June 22-25, 2027",
+   "place": "Seattle, WA, United States",
+   "event_start": "2027-06-22",
+   "event_end": "2027-06-25",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2026-11-11T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2026-11-17T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-02-02T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-02-26T11:59:59Z",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2022-11-12T07:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2023-11-18T07:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-11-15T07:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-11-14T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "dac",
+   "title": "DAC",
+   "description": "Design Automation Conference",
+   "category": "EDA",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "dac",
+   "year": 2027,
+   "link": "https://dac.com/2027/authors/call-for-contributions",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "UTC-8",
+   "date": "July 11-14, 2027",
+   "place": "San Jose, CA",
+   "event_start": "2027-07-11",
+   "event_end": "2027-07-14",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2026-11-12T01:00:00Z",
+     "round": 1
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2026-11-19T01:00:00Z",
+     "round": 1
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-03-09T11:59:59Z",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2022-11-22T01:00:00Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2023-11-21T01:00:00Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-11-21T01:00:00Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-11-20T01:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "ics",
+   "title": "ICS",
+   "description": "ACM International Conference on Supercomputing",
+   "category": "Architecture",
+   "tier": "notable",
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "dblp": "ics",
+   "year": 2027,
+   "link": "https://klab-ai3.github.io/ics2027/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "June 5-11, 2027",
+   "place": "Atlanta, Georgia, USA",
+   "event_start": "2027-06-05",
+   "event_end": "2027-06-11",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2026-12-02T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2026-12-08T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-03-13T11:59:59Z",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-02-04T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-01-19T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-01-17T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-12-17T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "naacl",
+   "title": "NAACL",
+   "description": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+   "category": "AI",
+   "tier": "notable",
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "dblp": "naacl",
+   "year": 2027,
+   "link": "https://2027.naacl.org/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "UTC-12",
+   "date": "June 1-5, 2027",
+   "place": "San Francisco, California, USA",
+   "event_start": "2027-06-01",
+   "event_end": "2027-06-05",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "deadline",
+     "label": "Paper (round 1)",
+     "time": "2026-10-13T11:59:59Z",
+     "round": 1,
+     "comment": "ARR Submission"
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 1)",
+     "time": "2026-12-01T11:59:59Z",
+     "round": 1,
+     "comment": "ARR Submission"
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 2)",
+     "time": "2026-12-24T11:59:59Z",
+     "round": 2,
+     "comment": "NAACL commitment after ARR meta-reviews; reviewed papers only"
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification (round 2)",
+     "time": "2027-02-11T11:59:59Z",
+     "round": 2,
+     "comment": "NAACL commitment after ARR meta-reviews; reviewed papers only"
+    }
+   ],
+   "history": [
+    {
+     "year": 2021,
+     "deadline": "2020-11-24T11:59:59Z"
+    },
+    {
+     "year": 2022,
+     "deadline": "2022-01-16T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2023-12-16T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-10-16T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "acl",
+   "title": "ACL",
+   "description": "Annual Meeting of the Association for Computational Linguistics",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "acl",
+   "year": 2027,
+   "link": "https://2027.aclweb.org/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "UTC-12",
+   "date": "August 20-22, 2027",
+   "place": "Kyoto, Japan",
+   "event_start": "2027-08-20",
+   "event_end": "2027-08-22",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-01-05T11:59:59Z",
+     "round": 1,
+     "comment": "ARR Submission"
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2022-12-16T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-02-16T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-02-16T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-10-07T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "ijcai",
+   "title": "IJCAI",
+   "description": "International Joint Conference on Artificial Intelligence",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "B"
+   },
+   "dblp": "ijcai",
+   "year": 2027,
+   "link": "https://2027.ijcai.org/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "August 7-13, 2027",
+   "place": "Kyoto, Japan",
+   "event_start": "2027-08-07",
+   "event_end": "2027-08-13",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-01-05T11:59:59Z",
+     "round": 1,
+     "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-01-12T11:59:59Z",
+     "round": 1,
+     "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-04-03T11:59:59Z",
+     "round": 1,
+     "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-04-22T11:59:59Z",
+     "round": 1,
+     "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-01-19T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-01-18T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-01-24T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-01-20T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "fccm",
+   "title": "FCCM",
+   "description": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+   "category": "EDA",
+   "tier": "notable",
+   "rank": {
+    "ccf": "C",
+    "core": "B",
+    "thcpl": "N"
+   },
+   "dblp": "fccm",
+   "year": 2027,
+   "link": "https://www.fccm.org/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "UTC-12",
+   "date": "May 10-11, 2027",
+   "place": "Provo, Utah, USA",
+   "event_start": "2027-05-10",
+   "event_end": "2027-05-11",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-01-11T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-01-18T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-02-28T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-03-15T11:59:59Z",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-01-10T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-01-16T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-01-20T07:59:00Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-01-18T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "icml",
+   "title": "ICML",
+   "description": "International Conference on Machine Learning",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "icml",
+   "year": 2027,
+   "link": "https://icml.cc/Conferences/2027",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "August 2-4, 2027",
+   "place": "Riocentro, Rio de Janeiro, Brazil",
+   "event_start": "2027-08-02",
+   "event_end": "2027-08-04",
+   "status": "open",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-01-15T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-01-23T11:59:59Z",
+     "round": 1
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-05-04T11:59:59Z",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-01-26T19:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-02-02T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-01-31T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-01-29T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "eccv",
+   "title": "ECCV",
+   "description": "European Conference on Computer Vision",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "eccv",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://eccv.ecva.net/",
+   "prev_year": 2026,
+   "timezone": "UTC-8",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-02-26T22:00:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-03-05T22:00:00Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2022,
+     "deadline": "2022-03-07T19:59:00Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-03-07T21:00:00Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-03-05T22:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "colm",
+   "title": "COLM",
+   "description": "Conference on Language Modeling",
+   "category": "AI",
+   "tier": "notable",
+   "rank": {
+    "ccf": "N",
+    "core": "N",
+    "thcpl": "N"
+   },
+   "dblp": "colm",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://colm.cc/Conferences/2026/CallForPapers",
+   "prev_year": 2026,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-03-27T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-04-01T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2024-03-30T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-03-29T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-04-01T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "micro",
+   "title": "MICRO",
+   "description": "IEEE/ACM International Symposium on Microarchitecture",
+   "category": "Architecture",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A",
+    "thcpl": "A"
+   },
+   "dblp": "micro",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://microarch.org/micro59/",
+   "prev_year": 2026,
+   "timezone": "UTC-4",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-04-01T03:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-04-08T03:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-04-29T06:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-04-19T04:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-04-12T03:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-04-08T03:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "sc",
+   "title": "SC",
+   "description": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+   "category": "Architecture",
+   "tier": "notable",
+   "rank": {
+    "ccf": "A",
+    "core": "A",
+    "thcpl": "A"
+   },
+   "dblp": "sc",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://sc26.supercomputing.org/",
+   "prev_year": 2026,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-04-02T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-04-09T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-04-07T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-04-03T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-04-15T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-04-09T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "iccad",
+   "title": "ICCAD",
+   "description": "IEEE/ACM International Conference on Computer-Aided Design",
+   "category": "EDA",
+   "tier": "top",
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "dblp": "iccad",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://iccad.com/2026",
+   "prev_year": 2026,
+   "timezone": "UTC-12",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-04-08T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-04-15T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-05-23T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-05-06T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-04-22T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-04-15T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "asplos",
+   "title": "ASPLOS",
+   "description": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "category": "Architecture",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "asplos",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://www.asplos-conference.org/asplos2027/cfp/",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "deadline",
+     "label": "Paper (round 1)",
+     "time": "2027-04-16T11:59:59Z",
+     "round": 1,
+     "comment": "April Cycle Submission Deadline",
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 1)",
+     "time": "2027-07-10T11:59:59Z",
+     "round": 1,
+     "comment": "April Cycle Submission Deadline",
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 2)",
+     "time": "2027-09-10T11:59:59Z",
+     "round": 2,
+     "comment": "September Cycle Submission Deadline",
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 2)",
+     "time": "2027-12-05T11:59:59Z",
+     "round": 2,
+     "comment": "September Cycle Submission Deadline",
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-04-20T19:00:00Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-03-02T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-03-13T03:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-04-16T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "pact",
+   "title": "PACT",
+   "description": "International Conference on Parallel Architectures and Compilation Techniques",
+   "category": "Architecture",
+   "tier": "notable",
+   "rank": {
+    "ccf": "B",
+    "core": "B",
+    "thcpl": "B"
+   },
+   "dblp": "pact",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://pact2026.github.io/",
+   "prev_year": 2026,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-04-24T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-05-01T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-04-16T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-04-02T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-04-26T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-05-01T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "neurips",
+   "title": "NeurIPS",
+   "description": "Conference on Neural Information Processing Systems",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "nips",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://neurips.cc/Conferences/2026",
+   "prev_year": 2026,
+   "timezone": "UTC+0",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-05-05T11:59:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-05-07T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-09-25T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-05-17T20:00:00Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-05-22T20:00:00Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-05-16T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-05-07T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "emnlp",
+   "title": "EMNLP",
+   "description": "The annual Conference on Empirical Methods in Natural Language Processing",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "emnlp",
+   "year": 2027,
+   "link": null,
+   "prev_link": "https://2026.emnlp.org/",
+   "prev_year": 2026,
+   "timezone": "UTC-12",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "deadline",
+     "label": "Paper (round 1)",
+     "time": "2027-05-26T11:59:59Z",
+     "round": 1,
+     "comment": "ARR Submission",
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 2)",
+     "time": "2027-08-03T11:59:59Z",
+     "round": 2,
+     "comment": "Commitment deadline for papers with ARR reviews and meta-reviews",
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2023-06-16T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2024-06-16T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-05-20T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2026-05-26T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "aspdac",
+   "title": "ASP-DAC",
+   "description": "Asia and South Pacific Design Automation Conference",
+   "category": "EDA",
+   "tier": "notable",
+   "rank": {
+    "ccf": "C",
+    "core": "B",
+    "thcpl": "B"
+   },
+   "dblp": "aspdac",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://www.aspdac.com/aspdac2027/",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-07-12T05:00:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-07-19T05:00:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-09-05T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-08-05T05:00:00Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-07-13T05:00:00Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-07-12T05:00:00Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-07-19T05:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "kdd",
+   "title": "SIGKDD",
+   "description": "ACM Knowledge Discovery and Data Mining",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "kdd",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://kdd2027.kdd.org/",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-07-20T11:59:59Z",
+     "round": 1,
+     "comment": "1st round of 2 total rounds",
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-07-27T11:59:59Z",
+     "round": 1,
+     "comment": "1st round of 2 total rounds",
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-10-14T11:59:59Z",
+     "round": 1,
+     "comment": "1st round of 2 total rounds",
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-11-15T11:59:59Z",
+     "round": 1,
+     "comment": "1st round of 2 total rounds",
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2024-02-09T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-08-09T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-08-01T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-07-27T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "aaai",
+   "title": "AAAI",
+   "description": "AAAI Conference on Artificial Intelligence",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "aaai",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://aaai.org/conference/aaai/aaai-27/",
+   "prev_year": 2027,
+   "timezone": "UTC-12",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-07-22T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-07-29T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-11-01T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-12-01T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-08-16T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-08-16T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-08-02T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-07-29T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "hpca",
+   "title": "HPCA",
+   "description": "IEEE International Symposium on High-Performance Computer Architecture",
+   "category": "Architecture",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "hpca",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://conf.researchr.org/home/hpca-2027",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-07-25T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-08-01T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-10-12T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-11-07T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-08-05T06:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-08-03T06:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-08-01T23:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-08-01T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "date",
+   "title": "DATE",
+   "description": "Design, Automation & Test in Europe",
+   "category": "EDA",
+   "tier": "top",
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "dblp": "date",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://www.date-conference.com/call-for-papers",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-09-14T11:59:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-09-21T11:59:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-11-24T11:59:00Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-09-18T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-09-23T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-09-15T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-09-21T11:59:00Z"
+    }
+   ]
+  },
+  {
+   "id": "iclr",
+   "title": "ICLR",
+   "description": "International Conference on Learning Representations",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "iclr",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://iclr.cc/Conferences/2027",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-09-19T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-09-26T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-11-19T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-12-17T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-09-29T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-10-02T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-09-25T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-09-26T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "ispd",
+   "title": "ISPD",
+   "description": "International Symposium on Physical Design",
+   "category": "EDA",
+   "tier": "notable",
+   "rank": {
+    "ccf": "C"
+   },
+   "dblp": "ispd",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://ispd.cc/ispd2027/",
+   "prev_year": 2027,
+   "timezone": "AoE",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-09-22T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-09-29T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-11-06T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-10-01T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-09-30T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-09-29T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-09-29T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "fpga",
+   "title": "FPGA",
+   "description": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+   "category": "EDA",
+   "tier": "notable",
+   "rank": {
+    "ccf": "B",
+    "core": "N",
+    "thcpl": "A"
+   },
+   "dblp": "fpga",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://www.isfpga.org/",
+   "prev_year": 2027,
+   "timezone": "UTC-12",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-10-02T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-10-09T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-11-26T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2027-12-09T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-10-14T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-10-09T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-10-02T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-10-09T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "iccv",
+   "title": "ICCV",
+   "description": "IEEE International Conference on Computer Vision",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "iccv",
+   "year": 2027,
+   "link": "https://iccv.thecvf.com/Conferences/2027",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "October 5-7, 2027",
+   "place": "Hong Kong, China",
+   "event_start": "2027-10-05",
+   "event_end": "2027-10-07",
+   "status": "tba",
+   "milestones": [],
+   "history": [
+    {
+     "year": 2021,
+     "deadline": "2021-03-18T06:59:59Z"
+    },
+    {
+     "year": 2023,
+     "deadline": "2023-03-08T23:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2025-03-08T09:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "mlsys",
+   "title": "MLSys",
+   "description": "Conference on Machine Learning and Systems",
+   "category": "AI",
+   "tier": "notable",
+   "rank": {
+    "ccf": "N",
+    "core": "N"
+   },
+   "dblp": "mlsys",
+   "year": 2027,
+   "link": "https://mlsys.org/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "TBD",
+   "place": "TBD",
+   "event_start": null,
+   "event_end": null,
+   "status": "tba",
+   "milestones": [],
+   "history": []
+  }
+ ]
+}

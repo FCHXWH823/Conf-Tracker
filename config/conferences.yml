@@ -1,0 +1,46 @@
+# Watchlist: the conferences this tracker follows.
+#
+#   id:       unique key (also used to match entries in data/manual.yml)
+#   source:   path in ccfddl/ccf-deadlines `conference/` dir (without .yml),
+#             or `manual` if the data lives only in data/manual.yml
+#   category: EDA | Architecture | AI
+#   tier:     top | notable   (the site shows "top" by default)
+#
+# To add a conference, find its file at
+#   https://github.com/ccfddl/ccf-deadlines/tree/main/conference
+# and append an entry below.
+
+conferences:
+  # ---------------- EDA ----------------
+  - { id: dac,    source: DS/dac,    category: EDA, tier: top }
+  - { id: iccad,  source: DS/iccad,  category: EDA, tier: top }
+  - { id: date,   source: DS/date,   category: EDA, tier: top }
+  - { id: aspdac, source: DS/aspdac, category: EDA, tier: notable }
+  - { id: ispd,   source: DS/ispd,   category: EDA, tier: notable }
+  - { id: fpga,   source: DS/fpga,   category: EDA, tier: notable }
+  - { id: fccm,   source: DS/fccm,   category: EDA, tier: notable }
+
+  # ------------- Architecture -------------
+  - { id: isca,   source: DS/isca,   category: Architecture, tier: top }
+  - { id: micro,  source: DS/micro,  category: Architecture, tier: top }
+  - { id: hpca,   source: DS/hpca,   category: Architecture, tier: top }
+  - { id: asplos, source: DS/asplos, category: Architecture, tier: top }
+  - { id: sc,     source: DS/sc,     category: Architecture, tier: notable }
+  - { id: pact,   source: DS/pact,   category: Architecture, tier: notable }
+  - { id: ics,    source: DS/ics,    category: Architecture, tier: notable }
+
+  # ---------------- AI ----------------
+  - { id: neurips, source: AI/nips,   category: AI, tier: top }
+  - { id: icml,    source: AI/icml,   category: AI, tier: top }
+  - { id: iclr,    source: AI/iclr,   category: AI, tier: top }
+  - { id: cvpr,    source: AI/cvpr,   category: AI, tier: top }
+  - { id: iccv,    source: AI/iccv,   category: AI, tier: top }
+  - { id: eccv,    source: AI/eccv,   category: AI, tier: top }
+  - { id: acl,     source: AI/acl,    category: AI, tier: top }
+  - { id: emnlp,   source: AI/emnlp,  category: AI, tier: top }
+  - { id: aaai,    source: AI/aaai,   category: AI, tier: top }
+  - { id: ijcai,   source: AI/ijcai,  category: AI, tier: top }
+  - { id: kdd,     source: DB/sigkdd, category: AI, tier: top }
+  - { id: naacl,   source: AI/naacl,  category: AI, tier: notable }
+  - { id: colm,    source: AI/colm,   category: AI, tier: notable }
+  - { id: mlsys,   source: manual,    category: AI, tier: notable }

@@ -1,0 +1,1064 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//conf-tracker//deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Conference Deadlines (EDA/Arch/AI)
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:isca-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261110T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Abstract (round 1) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISCA 2027 Abstract (round 1) deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261117T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Paper (round 1) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISCA 2027 Paper (round 1) deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-2-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261207T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Abstract (round 2) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISCA 2027 Abstract (round 2) deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-2-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261214T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Paper (round 2) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISCA 2027 Paper (round 2) deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-2-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270227T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Rebuttal (round 2) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270309T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Rebuttal (round 1) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270327T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Notification (round 1) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:isca-2027-2-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270327T115959Z
+DURATION:PT1H
+SUMMARY:ISCA 2027 Notification (round 2) deadline
+DESCRIPTION:International Symposium on Computer Architecture\nTimezone: AoE\nhttps://iscaconf.org/isca2027/
+CATEGORIES:Architecture
+URL:https://iscaconf.org/isca2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261111T115959Z
+DURATION:PT1H
+SUMMARY:CVPR 2027 Abstract deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\nTimezone: UTC-12\nhttps://cvpr.thecvf.com/Conferences/2027
+CATEGORIES:AI
+URL:https://cvpr.thecvf.com/Conferences/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CVPR 2027 Abstract deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261117T115959Z
+DURATION:PT1H
+SUMMARY:CVPR 2027 Paper deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\nTimezone: UTC-12\nhttps://cvpr.thecvf.com/Conferences/2027
+CATEGORIES:AI
+URL:https://cvpr.thecvf.com/Conferences/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CVPR 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270202T115959Z
+DURATION:PT1H
+SUMMARY:CVPR 2027 Rebuttal deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\nTimezone: UTC-12\nhttps://cvpr.thecvf.com/Conferences/2027
+CATEGORIES:AI
+URL:https://cvpr.thecvf.com/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270226T115959Z
+DURATION:PT1H
+SUMMARY:CVPR 2027 Notification deadline
+DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\nTimezone: UTC-12\nhttps://cvpr.thecvf.com/Conferences/2027
+CATEGORIES:AI
+URL:https://cvpr.thecvf.com/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261112T010000Z
+DURATION:PT1H
+SUMMARY:DAC 2027 Abstract deadline
+DESCRIPTION:Design Automation Conference\nTimezone: UTC-8\nhttps://dac.com/2027/authors/call-for-contributions
+CATEGORIES:EDA
+URL:https://dac.com/2027/authors/call-for-contributions
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DAC 2027 Abstract deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261119T010000Z
+DURATION:PT1H
+SUMMARY:DAC 2027 Paper deadline
+DESCRIPTION:Design Automation Conference\nTimezone: UTC-8\nhttps://dac.com/2027/authors/call-for-contributions
+CATEGORIES:EDA
+URL:https://dac.com/2027/authors/call-for-contributions
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DAC 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270309T115959Z
+DURATION:PT1H
+SUMMARY:DAC 2027 Notification deadline
+DESCRIPTION:Design Automation Conference\nTimezone: UTC-8\nhttps://dac.com/2027/authors/call-for-contributions
+CATEGORIES:EDA
+URL:https://dac.com/2027/authors/call-for-contributions
+END:VEVENT
+BEGIN:VEVENT
+UID:ics-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261202T115959Z
+DURATION:PT1H
+SUMMARY:ICS 2027 Abstract deadline
+DESCRIPTION:ACM International Conference on Supercomputing\nTimezone: AoE\nhttps://klab-ai3.github.io/ics2027/
+CATEGORIES:Architecture
+URL:https://klab-ai3.github.io/ics2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICS 2027 Abstract deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261208T115959Z
+DURATION:PT1H
+SUMMARY:ICS 2027 Paper deadline
+DESCRIPTION:ACM International Conference on Supercomputing\nTimezone: AoE\nhttps://klab-ai3.github.io/ics2027/
+CATEGORIES:Architecture
+URL:https://klab-ai3.github.io/ics2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICS 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270313T115959Z
+DURATION:PT1H
+SUMMARY:ICS 2027 Notification deadline
+DESCRIPTION:ACM International Conference on Supercomputing\nTimezone: AoE\nhttps://klab-ai3.github.io/ics2027/
+CATEGORIES:Architecture
+URL:https://klab-ai3.github.io/ics2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261013T115959Z
+DURATION:PT1H
+SUMMARY:NAACL 2027 Paper (round 1) deadline
+DESCRIPTION:The Annual Conference of the North American Chapter of the Association for Computational Linguistics\nTimezone: UTC-12\nhttps://2027.naacl.org/
+CATEGORIES:AI
+URL:https://2027.naacl.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NAACL 2027 Paper (round 1) deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261201T115959Z
+DURATION:PT1H
+SUMMARY:NAACL 2027 Rebuttal (round 1) deadline
+DESCRIPTION:The Annual Conference of the North American Chapter of the Association for Computational Linguistics\nTimezone: UTC-12\nhttps://2027.naacl.org/
+CATEGORIES:AI
+URL:https://2027.naacl.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-2-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20261224T115959Z
+DURATION:PT1H
+SUMMARY:NAACL 2027 Paper (round 2) deadline
+DESCRIPTION:The Annual Conference of the North American Chapter of the Association for Computational Linguistics\nTimezone: UTC-12\nhttps://2027.naacl.org/
+CATEGORIES:AI
+URL:https://2027.naacl.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NAACL 2027 Paper (round 2) deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-2-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270211T115959Z
+DURATION:PT1H
+SUMMARY:NAACL 2027 Notification (round 2) deadline
+DESCRIPTION:The Annual Conference of the North American Chapter of the Association for Computational Linguistics\nTimezone: UTC-12\nhttps://2027.naacl.org/
+CATEGORIES:AI
+URL:https://2027.naacl.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acl-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270105T115959Z
+DURATION:PT1H
+SUMMARY:ACL 2027 Paper deadline
+DESCRIPTION:Annual Meeting of the Association for Computational Linguistics\nTimezone: UTC-12\nhttps://2027.aclweb.org/
+CATEGORIES:AI
+URL:https://2027.aclweb.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACL 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270105T115959Z
+DURATION:PT1H
+SUMMARY:IJCAI 2027 Abstract deadline
+DESCRIPTION:International Joint Conference on Artificial Intelligence\nTimezone: AoE\nhttps://2027.ijcai.org/
+CATEGORIES:AI
+URL:https://2027.ijcai.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IJCAI 2027 Abstract deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270112T115959Z
+DURATION:PT1H
+SUMMARY:IJCAI 2027 Paper deadline
+DESCRIPTION:International Joint Conference on Artificial Intelligence\nTimezone: AoE\nhttps://2027.ijcai.org/
+CATEGORIES:AI
+URL:https://2027.ijcai.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IJCAI 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270403T115959Z
+DURATION:PT1H
+SUMMARY:IJCAI 2027 Rebuttal deadline
+DESCRIPTION:International Joint Conference on Artificial Intelligence\nTimezone: AoE\nhttps://2027.ijcai.org/
+CATEGORIES:AI
+URL:https://2027.ijcai.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270422T115959Z
+DURATION:PT1H
+SUMMARY:IJCAI 2027 Notification deadline
+DESCRIPTION:International Joint Conference on Artificial Intelligence\nTimezone: AoE\nhttps://2027.ijcai.org/
+CATEGORIES:AI
+URL:https://2027.ijcai.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:fccm-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270111T115959Z
+DURATION:PT1H
+SUMMARY:FCCM 2027 Abstract deadline
+DESCRIPTION:IEEE Symposium on Field-Programmable Custom Computing Machines\nTimezone: UTC-12\nhttps://www.fccm.org/
+CATEGORIES:EDA
+URL:https://www.fccm.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FCCM 2027 Abstract deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fccm-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270118T115959Z
+DURATION:PT1H
+SUMMARY:FCCM 2027 Paper deadline
+DESCRIPTION:IEEE Symposium on Field-Programmable Custom Computing Machines\nTimezone: UTC-12\nhttps://www.fccm.org/
+CATEGORIES:EDA
+URL:https://www.fccm.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FCCM 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fccm-2027-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270228T115959Z
+DURATION:PT1H
+SUMMARY:FCCM 2027 Rebuttal deadline
+DESCRIPTION:IEEE Symposium on Field-Programmable Custom Computing Machines\nTimezone: UTC-12\nhttps://www.fccm.org/
+CATEGORIES:EDA
+URL:https://www.fccm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:fccm-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270315T115959Z
+DURATION:PT1H
+SUMMARY:FCCM 2027 Notification deadline
+DESCRIPTION:IEEE Symposium on Field-Programmable Custom Computing Machines\nTimezone: UTC-12\nhttps://www.fccm.org/
+CATEGORIES:EDA
+URL:https://www.fccm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270115T115959Z
+DURATION:PT1H
+SUMMARY:ICML 2027 Abstract deadline
+DESCRIPTION:International Conference on Machine Learning\nTimezone: AoE\nhttps://icml.cc/Conferences/2027
+CATEGORIES:AI
+URL:https://icml.cc/Conferences/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICML 2027 Abstract deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270123T115959Z
+DURATION:PT1H
+SUMMARY:ICML 2027 Paper deadline
+DESCRIPTION:International Conference on Machine Learning\nTimezone: AoE\nhttps://icml.cc/Conferences/2027
+CATEGORIES:AI
+URL:https://icml.cc/Conferences/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICML 2027 Paper deadline
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270504T115959Z
+DURATION:PT1H
+SUMMARY:ICML 2027 Notification deadline
+DESCRIPTION:International Conference on Machine Learning\nTimezone: AoE\nhttps://icml.cc/Conferences/2027
+CATEGORIES:AI
+URL:https://icml.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270226T220000Z
+DURATION:PT1H
+SUMMARY:ECCV 2027 Abstract deadline (estimated)
+DESCRIPTION:European Conference on Computer Vision\nTimezone: UTC-8
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ECCV 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270305T220000Z
+DURATION:PT1H
+SUMMARY:ECCV 2027 Paper deadline (estimated)
+DESCRIPTION:European Conference on Computer Vision\nTimezone: UTC-8
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ECCV 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270327T115959Z
+DURATION:PT1H
+SUMMARY:COLM 2027 Abstract deadline (estimated)
+DESCRIPTION:Conference on Language Modeling\nTimezone: AoE
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COLM 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270401T115959Z
+DURATION:PT1H
+SUMMARY:COLM 2027 Paper deadline (estimated)
+DESCRIPTION:Conference on Language Modeling\nTimezone: AoE
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COLM 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:micro-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270401T035959Z
+DURATION:PT1H
+SUMMARY:MICRO 2027 Abstract deadline (estimated)
+DESCRIPTION:IEEE/ACM International Symposium on Microarchitecture\nTimezone: UTC-4
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MICRO 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:micro-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270408T035959Z
+DURATION:PT1H
+SUMMARY:MICRO 2027 Paper deadline (estimated)
+DESCRIPTION:IEEE/ACM International Symposium on Microarchitecture\nTimezone: UTC-4
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MICRO 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sc-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270402T115959Z
+DURATION:PT1H
+SUMMARY:SC 2027 Abstract deadline (estimated)
+DESCRIPTION:International Conference for High Performance Computing\, Networking\, Storage\, and Analysis\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SC 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sc-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270409T115959Z
+DURATION:PT1H
+SUMMARY:SC 2027 Paper deadline (estimated)
+DESCRIPTION:International Conference for High Performance Computing\, Networking\, Storage\, and Analysis\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SC 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iccad-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270408T115959Z
+DURATION:PT1H
+SUMMARY:ICCAD 2027 Abstract deadline (estimated)
+DESCRIPTION:IEEE/ACM International Conference on Computer-Aided Design\nTimezone: UTC-12
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICCAD 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iccad-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270415T115959Z
+DURATION:PT1H
+SUMMARY:ICCAD 2027 Paper deadline (estimated)
+DESCRIPTION:IEEE/ACM International Conference on Computer-Aided Design\nTimezone: UTC-12
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICCAD 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asplos-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270416T115959Z
+DURATION:PT1H
+SUMMARY:ASPLOS 2028 Paper (round 1) deadline (estimated)
+DESCRIPTION:International Conference on Architectural Support for Programming Languages and Operating Systems\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASPLOS 2028 Paper (round 1) deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asplos-2028-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270710T115959Z
+DURATION:PT1H
+SUMMARY:ASPLOS 2028 Rebuttal (round 1) deadline (estimated)
+DESCRIPTION:International Conference on Architectural Support for Programming Languages and Operating Systems\nTimezone: AoE
+CATEGORIES:Architecture
+END:VEVENT
+BEGIN:VEVENT
+UID:asplos-2028-2-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270910T115959Z
+DURATION:PT1H
+SUMMARY:ASPLOS 2028 Paper (round 2) deadline (estimated)
+DESCRIPTION:International Conference on Architectural Support for Programming Languages and Operating Systems\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASPLOS 2028 Paper (round 2) deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asplos-2028-2-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271205T115959Z
+DURATION:PT1H
+SUMMARY:ASPLOS 2028 Rebuttal (round 2) deadline (estimated)
+DESCRIPTION:International Conference on Architectural Support for Programming Languages and Operating Systems\nTimezone: AoE
+CATEGORIES:Architecture
+END:VEVENT
+BEGIN:VEVENT
+UID:pact-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270424T115959Z
+DURATION:PT1H
+SUMMARY:PACT 2027 Abstract deadline (estimated)
+DESCRIPTION:International Conference on Parallel Architectures and Compilation Techniques\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PACT 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pact-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270501T115959Z
+DURATION:PT1H
+SUMMARY:PACT 2027 Paper deadline (estimated)
+DESCRIPTION:International Conference on Parallel Architectures and Compilation Techniques\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PACT 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270505T115900Z
+DURATION:PT1H
+SUMMARY:NeurIPS 2027 Abstract deadline (estimated)
+DESCRIPTION:Conference on Neural Information Processing Systems\nTimezone: UTC+0
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NeurIPS 2027 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270507T115959Z
+DURATION:PT1H
+SUMMARY:NeurIPS 2027 Paper deadline (estimated)
+DESCRIPTION:Conference on Neural Information Processing Systems\nTimezone: UTC+0
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NeurIPS 2027 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270925T115959Z
+DURATION:PT1H
+SUMMARY:NeurIPS 2027 Notification deadline (estimated)
+DESCRIPTION:Conference on Neural Information Processing Systems\nTimezone: UTC+0
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2027-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270526T115959Z
+DURATION:PT1H
+SUMMARY:EMNLP 2027 Paper (round 1) deadline (estimated)
+DESCRIPTION:The annual Conference on Empirical Methods in Natural Language Processing\nTimezone: UTC-12
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EMNLP 2027 Paper (round 1) deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2027-2-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270803T115959Z
+DURATION:PT1H
+SUMMARY:EMNLP 2027 Paper (round 2) deadline (estimated)
+DESCRIPTION:The annual Conference on Empirical Methods in Natural Language Processing\nTimezone: UTC-12
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EMNLP 2027 Paper (round 2) deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aspdac-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270712T050000Z
+DURATION:PT1H
+SUMMARY:ASP-DAC 2028 Abstract deadline (estimated)
+DESCRIPTION:Asia and South Pacific Design Automation Conference\nTimezone: AoE
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASP-DAC 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aspdac-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270719T050000Z
+DURATION:PT1H
+SUMMARY:ASP-DAC 2028 Paper deadline (estimated)
+DESCRIPTION:Asia and South Pacific Design Automation Conference\nTimezone: AoE
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASP-DAC 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aspdac-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270905T115959Z
+DURATION:PT1H
+SUMMARY:ASP-DAC 2028 Notification deadline (estimated)
+DESCRIPTION:Asia and South Pacific Design Automation Conference\nTimezone: AoE
+CATEGORIES:EDA
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270720T115959Z
+DURATION:PT1H
+SUMMARY:SIGKDD 2028 Abstract deadline (estimated)
+DESCRIPTION:ACM Knowledge Discovery and Data Mining\nTimezone: AoE
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SIGKDD 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270727T115959Z
+DURATION:PT1H
+SUMMARY:SIGKDD 2028 Paper deadline (estimated)
+DESCRIPTION:ACM Knowledge Discovery and Data Mining\nTimezone: AoE
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SIGKDD 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2028-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271014T115959Z
+DURATION:PT1H
+SUMMARY:SIGKDD 2028 Rebuttal deadline (estimated)
+DESCRIPTION:ACM Knowledge Discovery and Data Mining\nTimezone: AoE
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271115T115959Z
+DURATION:PT1H
+SUMMARY:SIGKDD 2028 Notification deadline (estimated)
+DESCRIPTION:ACM Knowledge Discovery and Data Mining\nTimezone: AoE
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270722T115959Z
+DURATION:PT1H
+SUMMARY:AAAI 2028 Abstract deadline (estimated)
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nTimezone: UTC-12
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAAI 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270729T115959Z
+DURATION:PT1H
+SUMMARY:AAAI 2028 Paper deadline (estimated)
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nTimezone: UTC-12
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAAI 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271101T115959Z
+DURATION:PT1H
+SUMMARY:AAAI 2028 Rebuttal deadline (estimated)
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nTimezone: UTC-12
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271201T115959Z
+DURATION:PT1H
+SUMMARY:AAAI 2028 Notification deadline (estimated)
+DESCRIPTION:AAAI Conference on Artificial Intelligence\nTimezone: UTC-12
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:hpca-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270725T115959Z
+DURATION:PT1H
+SUMMARY:HPCA 2028 Abstract deadline (estimated)
+DESCRIPTION:IEEE International Symposium on High-Performance Computer Architecture\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HPCA 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hpca-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270801T115959Z
+DURATION:PT1H
+SUMMARY:HPCA 2028 Paper deadline (estimated)
+DESCRIPTION:IEEE International Symposium on High-Performance Computer Architecture\nTimezone: AoE
+CATEGORIES:Architecture
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HPCA 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hpca-2028-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271012T115959Z
+DURATION:PT1H
+SUMMARY:HPCA 2028 Rebuttal deadline (estimated)
+DESCRIPTION:IEEE International Symposium on High-Performance Computer Architecture\nTimezone: AoE
+CATEGORIES:Architecture
+END:VEVENT
+BEGIN:VEVENT
+UID:hpca-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271107T115959Z
+DURATION:PT1H
+SUMMARY:HPCA 2028 Notification deadline (estimated)
+DESCRIPTION:IEEE International Symposium on High-Performance Computer Architecture\nTimezone: AoE
+CATEGORIES:Architecture
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270914T115900Z
+DURATION:PT1H
+SUMMARY:DATE 2028 Abstract deadline (estimated)
+DESCRIPTION:Design\, Automation & Test in Europe\nTimezone: AoE
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DATE 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270921T115900Z
+DURATION:PT1H
+SUMMARY:DATE 2028 Paper deadline (estimated)
+DESCRIPTION:Design\, Automation & Test in Europe\nTimezone: AoE
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DATE 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:date-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271124T115900Z
+DURATION:PT1H
+SUMMARY:DATE 2028 Notification deadline (estimated)
+DESCRIPTION:Design\, Automation & Test in Europe\nTimezone: AoE
+CATEGORIES:EDA
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270919T115959Z
+DURATION:PT1H
+SUMMARY:ICLR 2028 Abstract deadline (estimated)
+DESCRIPTION:International Conference on Learning Representations\nTimezone: AoE
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICLR 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270926T115959Z
+DURATION:PT1H
+SUMMARY:ICLR 2028 Paper deadline (estimated)
+DESCRIPTION:International Conference on Learning Representations\nTimezone: AoE
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ICLR 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271119T115959Z
+DURATION:PT1H
+SUMMARY:ICLR 2028 Rebuttal deadline (estimated)
+DESCRIPTION:International Conference on Learning Representations\nTimezone: AoE
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271217T115959Z
+DURATION:PT1H
+SUMMARY:ICLR 2028 Notification deadline (estimated)
+DESCRIPTION:International Conference on Learning Representations\nTimezone: AoE
+CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270922T115959Z
+DURATION:PT1H
+SUMMARY:ISPD 2028 Abstract deadline (estimated)
+DESCRIPTION:International Symposium on Physical Design\nTimezone: AoE
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISPD 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270929T115959Z
+DURATION:PT1H
+SUMMARY:ISPD 2028 Paper deadline (estimated)
+DESCRIPTION:International Symposium on Physical Design\nTimezone: AoE
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISPD 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ispd-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271106T115959Z
+DURATION:PT1H
+SUMMARY:ISPD 2028 Notification deadline (estimated)
+DESCRIPTION:International Symposium on Physical Design\nTimezone: AoE
+CATEGORIES:EDA
+END:VEVENT
+BEGIN:VEVENT
+UID:fpga-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271002T115959Z
+DURATION:PT1H
+SUMMARY:FPGA 2028 Abstract deadline (estimated)
+DESCRIPTION:ACM/SIGDA International Symposium on Field-Programmable Gate Arrays\nTimezone: UTC-12
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FPGA 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fpga-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271009T115959Z
+DURATION:PT1H
+SUMMARY:FPGA 2028 Paper deadline (estimated)
+DESCRIPTION:ACM/SIGDA International Symposium on Field-Programmable Gate Arrays\nTimezone: UTC-12
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FPGA 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fpga-2028-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271126T115959Z
+DURATION:PT1H
+SUMMARY:FPGA 2028 Rebuttal deadline (estimated)
+DESCRIPTION:ACM/SIGDA International Symposium on Field-Programmable Gate Arrays\nTimezone: UTC-12
+CATEGORIES:EDA
+END:VEVENT
+BEGIN:VEVENT
+UID:fpga-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271209T115959Z
+DURATION:PT1H
+SUMMARY:FPGA 2028 Notification deadline (estimated)
+DESCRIPTION:ACM/SIGDA International Symposium on Field-Programmable Gate Arrays\nTimezone: UTC-12
+CATEGORIES:EDA
+END:VEVENT
+END:VCALENDAR

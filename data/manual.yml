@@ -1,0 +1,38 @@
+# Manual data, in the same schema as ccfddl/ccf-deadlines.
+#
+# Keys are conference ids from config/conferences.yml.
+# - For a `source: manual` conference, this is the only data.
+# - For an upstream conference, `confs` entries here override upstream
+#   editions with the same `year` (use it to fix or pre-fill deadlines),
+#   and any other top-level field (title, rank, ...) overrides upstream.
+#
+# Times are local to `timezone` (AoE, UTC, UTC-8, UTC+8, ...).
+# Use 'TBD' when a deadline is not announced yet.
+
+mlsys:
+  title: MLSys
+  description: Conference on Machine Learning and Systems
+  rank: { ccf: N, core: N }
+  dblp: mlsys
+  confs:
+    - year: 2027
+      id: mlsys27
+      link: https://mlsys.org/
+      timeline:
+        - deadline: TBD
+      timezone: AoE
+      date: TBD
+      place: TBD
+
+# Example override (uncomment and edit):
+# dac:
+#   confs:
+#     - year: 2028
+#       id: dac28
+#       link: https://dac.com/
+#       timeline:
+#         - abstract_deadline: '2027-11-10 17:00:00'
+#           deadline: '2027-11-17 17:00:00'
+#       timezone: UTC-8
+#       date: June 2028
+#       place: San Francisco, CA
