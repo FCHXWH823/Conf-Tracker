@@ -5,6 +5,7 @@
 #             or `manual` if the data lives only in data/manual.yml
 #   category: EDA | Architecture | AI
 #   tier:     top | notable   (the site shows "top" by default)
+#   cycle_years: cadence used only for projections (default: 1)
 #
 # To add a conference, find its file at
 #   https://github.com/ccfddl/ccf-deadlines/tree/main/conference
@@ -34,8 +35,8 @@ conferences:
   - { id: icml,    source: AI/icml,   category: AI, tier: top }
   - { id: iclr,    source: AI/iclr,   category: AI, tier: top }
   - { id: cvpr,    source: AI/cvpr,   category: AI, tier: top }
-  - { id: iccv,    source: AI/iccv,   category: AI, tier: top }
-  - { id: eccv,    source: AI/eccv,   category: AI, tier: top }
+  - { id: iccv,    source: AI/iccv,   category: AI, tier: top, cycle_years: 2 }
+  - { id: eccv,    source: AI/eccv,   category: AI, tier: top, cycle_years: 2 }
   - { id: acl,     source: AI/acl,    category: AI, tier: top }
   - { id: emnlp,   source: AI/emnlp,  category: AI, tier: top }
   - { id: aaai,    source: AI/aaai,   category: AI, tier: top }

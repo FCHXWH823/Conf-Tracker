@@ -442,30 +442,32 @@ CATEGORIES:AI
 URL:https://icml.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
-UID:eccv-2027-1-abstract_deadline@conf-tracker
+UID:iccv-2027-1-abstract_deadline@conf-tracker
 DTSTAMP:20000101T000000Z
-DTSTART:20270226T220000Z
+DTSTART:20270304T095959Z
 DURATION:PT1H
-SUMMARY:ECCV 2027 Abstract deadline (estimated)
-DESCRIPTION:European Conference on Computer Vision\nTimezone: UTC-8
+SUMMARY:ICCV 2027 Abstract deadline (estimated)
+DESCRIPTION:IEEE International Conference on Computer Vision\nTimezone: UTC+0\nhttps://iccv.thecvf.com/Conferences/2027
 CATEGORIES:AI
+URL:https://iccv.thecvf.com/Conferences/2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ECCV 2027 Abstract deadline (estimated)
+DESCRIPTION:ICCV 2027 Abstract deadline (estimated)
 TRIGGER:-P7D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eccv-2027-1-deadline@conf-tracker
+UID:iccv-2027-1-deadline@conf-tracker
 DTSTAMP:20000101T000000Z
-DTSTART:20270305T220000Z
+DTSTART:20270308T095959Z
 DURATION:PT1H
-SUMMARY:ECCV 2027 Paper deadline (estimated)
-DESCRIPTION:European Conference on Computer Vision\nTimezone: UTC-8
+SUMMARY:ICCV 2027 Paper deadline (estimated)
+DESCRIPTION:IEEE International Conference on Computer Vision\nTimezone: UTC+0\nhttps://iccv.thecvf.com/Conferences/2027
 CATEGORIES:AI
+URL:https://iccv.thecvf.com/Conferences/2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ECCV 2027 Paper deadline (estimated)
+DESCRIPTION:ICCV 2027 Paper deadline (estimated)
 TRIGGER:-P7D
 END:VALARM
 END:VEVENT
@@ -1060,5 +1062,33 @@ DURATION:PT1H
 SUMMARY:FPGA 2028 Notification deadline (estimated)
 DESCRIPTION:ACM/SIGDA International Symposium on Field-Programmable Gate Arrays\nTimezone: UTC-12
 CATEGORIES:EDA
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20280226T220000Z
+DURATION:PT1H
+SUMMARY:ECCV 2028 Abstract deadline (estimated)
+DESCRIPTION:European Conference on Computer Vision\nTimezone: UTC-8
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ECCV 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20280305T220000Z
+DURATION:PT1H
+SUMMARY:ECCV 2028 Paper deadline (estimated)
+DESCRIPTION:European Conference on Computer Vision\nTimezone: UTC-8
+CATEGORIES:AI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ECCV 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

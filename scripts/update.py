@@ -126,11 +126,11 @@ def iso(t: dt.datetime | None) -> str | None:
     return t.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ") if t else None
 
 
-def add_year(t: dt.datetime) -> dt.datetime:
+def add_years(t: dt.datetime, years: int = 1) -> dt.datetime:
     try:
-        return t.replace(year=t.year + 1)
+        return t.replace(year=t.year + years)
     except ValueError:  # Feb 29
-        return t.replace(year=t.year + 1, day=28)
+        return t.replace(year=t.year + years, day=28)
 
 
 # --------------------------------------------------------------------------
@@ -209,9 +209,11 @@ def edition_milestones(ed: dict) -> list[dict]:
 def build_record(conf_cfg: dict, raw: dict, now: dt.datetime) -> dict:
     editions = sorted(raw.get("confs") or [], key=lambda c: int(c.get("year") or 0))
     parsed = [(ed, edition_milestones(ed)) for ed in editions]
+    cycle_years = max(1, int(conf_cfg.get("cycle_years", 1)))
 
     # Current edition: earliest edition with a submission deadline still ahead.
-    current, milestones, status = None, [], "tba"
+    current, milestones, status, estimated_from_year = None, [], "tba", None
+    deadline_timezone = None
     for ed, ms in parsed:
         if any(m["key"] in SUBMISSION_KEYS and m["time"] > now for m in ms):
             current, milestones, status = ed, ms, "open"
@@ -221,9 +223,10 @@ def build_record(conf_cfg: dict, raw: dict, now: dt.datetime) -> dict:
         latest, latest_ms = parsed[-1]
         has_dates = any(m["key"] in SUBMISSION_KEYS for m in latest_ms)
         if has_dates:
-            # All announced deadlines passed -> project next edition (+1 year).
+            # All announced deadlines passed -> project the next edition using
+            # the configured cadence (important for biennial ICCV/ECCV).
             current = {
-                "year": int(latest.get("year") or 0) + 1,
+                "year": int(latest.get("year") or 0) + cycle_years,
                 "link": None,
                 "prev_link": latest.get("link"),
                 "prev_year": latest.get("year"),
@@ -231,14 +234,36 @@ def build_record(conf_cfg: dict, raw: dict, now: dt.datetime) -> dict:
                 "date": None,
                 "place": None,
             }
-            milestones = [{**m, "time": add_year(m["time"]), "estimated": True} for m in latest_ms]
+            estimated_from_year = latest.get("year")
+            milestones = [
+                {**m, "time": add_years(m["time"], cycle_years), "estimated": True}
+                for m in latest_ms
+            ]
             # If even the projection is already past, push it another year.
             while milestones and all(m["time"] < now for m in milestones if m["key"] in SUBMISSION_KEYS):
-                milestones = [{**m, "time": add_year(m["time"])} for m in milestones]
-                current["year"] += 1
+                milestones = [{**m, "time": add_years(m["time"], cycle_years)} for m in milestones]
+                current["year"] += cycle_years
             status = "estimated"
         else:
-            current = latest  # announced edition without dates yet
+            # An edition can be announced before its CFP. Project its dates from
+            # the most recent dated edition while preserving the official URL,
+            # venue and year. The UI labels every projected milestone clearly.
+            current = latest
+            latest_year = int(latest.get("year") or 0)
+            for previous, previous_ms in reversed(parsed[:-1]):
+                previous_year = int(previous.get("year") or 0)
+                if previous_ms and previous_year and latest_year > previous_year:
+                    delta = latest_year - previous_year
+                    milestones = [
+                        {**m, "time": add_years(m["time"], delta), "estimated": True}
+                        for m in previous_ms
+                    ]
+                    estimated_from_year = previous.get("year")
+                    # TBA editions often carry a placeholder timezone. Keep the
+                    # source edition's zone with its projected wall-clock time.
+                    deadline_timezone = previous.get("timezone")
+                    status = "estimated"
+                    break
 
     current = current or {}
     ev_start, ev_end = parse_event_dates(current.get("date"))
@@ -262,12 +287,13 @@ def build_record(conf_cfg: dict, raw: dict, now: dt.datetime) -> dict:
         "link": current.get("link"),
         "prev_link": current.get("prev_link"),
         "prev_year": current.get("prev_year"),
-        "timezone": str(current.get("timezone") or "AoE"),
+        "timezone": str(deadline_timezone or current.get("timezone") or "AoE"),
         "date": current.get("date"),
         "place": current.get("place"),
         "event_start": ev_start,
         "event_end": ev_end,
         "status": status,
+        "estimated_from_year": estimated_from_year,
         "milestones": [
             {k: (iso(v) if k == "time" else v) for k, v in m.items() if v is not None}
             for m in milestones
@@ -389,7 +415,7 @@ def write_readme(records: list[dict], now: dt.datetime, updated_at: str) -> None
     block = (
         "<!-- DEADLINES:START -->\n"
         f"{head}Top-tier conferences, sorted by next submission deadline "
-        f"(data last changed {updated_at[:10]}; *est.* = projected from last year).\n\n"
+        f"(data last changed {updated_at[:10]}; *est.* = projected from the previous edition).\n\n"
         f"{table}\n"
         "<!-- DEADLINES:END -->"
     )
