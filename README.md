@@ -17,9 +17,8 @@ Top-tier conferences, sorted by next submission deadline (data last changed 2026
 
 | Area | Conference | CCF | Next | Deadline | Location |
 |---|---|---|---|---|---|
-| Architecture | [ISCA 2027](https://iscaconf.org/isca2027/) | A | Paper (round 1) | 2026-11-16 23:59 AoE | Atlanta, Georgia, USA |
-| AI | [CVPR 2027](https://cvpr.thecvf.com/Conferences/2027) | A | Paper | 2026-11-16 23:59 UTC-12 | Seattle, WA, United States |
 | EDA | [DAC 2027](https://dac.com/2027/authors/call-for-contributions) | A | Paper | 2026-11-18 17:00 UTC-8 | San Jose, CA |
+| Architecture | [ISCA 2027](https://iscaconf.org/isca2027/) | A | Abstract (round 2) | 2026-12-06 23:59 AoE | Atlanta, Georgia, USA |
 | AI | [ACL 2027](https://2027.aclweb.org/) | A | Paper | 2027-01-04 23:59 UTC-12 | Kyoto, Japan |
 | AI | [IJCAI 2027](https://2027.ijcai.org/) | B | Abstract | 2027-01-04 23:59 AoE | Kyoto, Japan |
 | AI | [ICML 2027](https://icml.cc/Conferences/2027) | A | Abstract | 2027-01-14 23:59 AoE | Riocentro, Rio de Janeiro, Brazil |
@@ -34,6 +33,7 @@ Top-tier conferences, sorted by next submission deadline (data last changed 2026
 | Architecture | HPCA 2028 <sub>([2027 site](https://conf.researchr.org/home/hpca-2027))</sub> | A | Abstract *(est.)* | 2027-07-24 23:59 AoE |  |
 | EDA | DATE 2028 <sub>([2027 site](https://www.date-conference.com/call-for-papers))</sub> | B | Abstract *(est.)* | 2027-09-13 23:59 AoE |  |
 | AI | ICLR 2028 <sub>([2027 site](https://iclr.cc/Conferences/2027))</sub> | A | Abstract *(est.)* | 2027-09-18 23:59 AoE |  |
+| AI | CVPR 2028 <sub>([2027 site](https://cvpr.thecvf.com/Conferences/2027))</sub> | A | Abstract *(est.)* | 2027-11-10 23:59 UTC-12 |  |
 | AI | ECCV 2028 <sub>([2026 site](https://eccv.ecva.net/))</sub> | B | Abstract *(est.)* | 2028-02-26 14:00 UTC-8 |  |
 <!-- DEADLINES:END -->
 

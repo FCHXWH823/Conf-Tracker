@@ -1,175 +1,7 @@
 {
- "updated_at": "2026-11-17T03:05:23Z",
+ "updated_at": "2026-11-17T12:27:51Z",
  "source": "https://github.com/ccfddl/ccf-deadlines",
  "conferences": [
-  {
-   "id": "isca",
-   "title": "ISCA",
-   "description": "International Symposium on Computer Architecture",
-   "category": "Architecture",
-   "tier": "top",
-   "rank": {
-    "ccf": "A",
-    "core": "A*",
-    "thcpl": "A"
-   },
-   "dblp": "isca",
-   "year": 2027,
-   "link": "https://iscaconf.org/isca2027/",
-   "prev_link": null,
-   "prev_year": null,
-   "timezone": "AoE",
-   "date": "June 5-9, 2027",
-   "place": "Atlanta, Georgia, USA",
-   "event_start": "2027-06-05",
-   "event_end": "2027-06-09",
-   "status": "open",
-   "estimated_from_year": null,
-   "milestones": [
-    {
-     "key": "abstract_deadline",
-     "label": "Abstract (round 1)",
-     "time": "2026-11-10T11:59:59Z",
-     "round": 1,
-     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
-    },
-    {
-     "key": "deadline",
-     "label": "Paper (round 1)",
-     "time": "2026-11-17T11:59:59Z",
-     "round": 1,
-     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
-    },
-    {
-     "key": "abstract_deadline",
-     "label": "Abstract (round 2)",
-     "time": "2026-12-07T11:59:59Z",
-     "round": 2,
-     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
-    },
-    {
-     "key": "deadline",
-     "label": "Paper (round 2)",
-     "time": "2026-12-14T11:59:59Z",
-     "round": 2,
-     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
-    },
-    {
-     "key": "rebuttal_deadline",
-     "label": "Rebuttal (round 2)",
-     "time": "2027-02-27T11:59:59Z",
-     "round": 2,
-     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
-    },
-    {
-     "key": "rebuttal_deadline",
-     "label": "Rebuttal (round 1)",
-     "time": "2027-03-09T11:59:59Z",
-     "round": 1,
-     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
-    },
-    {
-     "key": "decision_deadline",
-     "label": "Notification (round 1)",
-     "time": "2027-03-27T11:59:59Z",
-     "round": 1,
-     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
-    },
-    {
-     "key": "decision_deadline",
-     "label": "Notification (round 2)",
-     "time": "2027-03-27T11:59:59Z",
-     "round": 2,
-     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
-    }
-   ],
-   "history": [
-    {
-     "year": 2023,
-     "deadline": "2022-11-22T11:59:59Z"
-    },
-    {
-     "year": 2024,
-     "deadline": "2023-11-22T11:59:59Z"
-    },
-    {
-     "year": 2025,
-     "deadline": "2024-11-23T11:59:59Z"
-    },
-    {
-     "year": 2026,
-     "deadline": "2025-11-18T11:59:59Z"
-    }
-   ]
-  },
-  {
-   "id": "cvpr",
-   "title": "CVPR",
-   "description": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
-   "category": "AI",
-   "tier": "top",
-   "rank": {
-    "ccf": "A",
-    "core": "A*",
-    "thcpl": "A"
-   },
-   "dblp": "cvpr",
-   "year": 2027,
-   "link": "https://cvpr.thecvf.com/Conferences/2027",
-   "prev_link": null,
-   "prev_year": null,
-   "timezone": "UTC-12",
-   "date": "June 22-25, 2027",
-   "place": "Seattle, WA, United States",
-   "event_start": "2027-06-22",
-   "event_end": "2027-06-25",
-   "status": "open",
-   "estimated_from_year": null,
-   "milestones": [
-    {
-     "key": "abstract_deadline",
-     "label": "Abstract",
-     "time": "2026-11-11T11:59:59Z",
-     "round": 1
-    },
-    {
-     "key": "deadline",
-     "label": "Paper",
-     "time": "2026-11-17T11:59:59Z",
-     "round": 1
-    },
-    {
-     "key": "rebuttal_deadline",
-     "label": "Rebuttal",
-     "time": "2027-02-02T11:59:59Z",
-     "round": 1
-    },
-    {
-     "key": "decision_deadline",
-     "label": "Notification",
-     "time": "2027-02-26T11:59:59Z",
-     "round": 1
-    }
-   ],
-   "history": [
-    {
-     "year": 2023,
-     "deadline": "2022-11-12T07:59:59Z"
-    },
-    {
-     "year": 2024,
-     "deadline": "2023-11-18T07:59:59Z"
-    },
-    {
-     "year": 2025,
-     "deadline": "2024-11-15T07:59:59Z"
-    },
-    {
-     "year": 2026,
-     "deadline": "2025-11-14T11:59:59Z"
-    }
-   ]
-  },
   {
    "id": "dac",
    "title": "DAC",
@@ -291,6 +123,106 @@
     {
      "year": 2026,
      "deadline": "2025-12-17T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "isca",
+   "title": "ISCA",
+   "description": "International Symposium on Computer Architecture",
+   "category": "Architecture",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "isca",
+   "year": 2027,
+   "link": "https://iscaconf.org/isca2027/",
+   "prev_link": null,
+   "prev_year": null,
+   "timezone": "AoE",
+   "date": "June 5-9, 2027",
+   "place": "Atlanta, Georgia, USA",
+   "event_start": "2027-06-05",
+   "event_end": "2027-06-09",
+   "status": "open",
+   "estimated_from_year": null,
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract (round 1)",
+     "time": "2026-11-10T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 1)",
+     "time": "2026-11-17T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract (round 2)",
+     "time": "2026-12-07T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    },
+    {
+     "key": "deadline",
+     "label": "Paper (round 2)",
+     "time": "2026-12-14T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 2)",
+     "time": "2027-02-27T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal (round 1)",
+     "time": "2027-03-09T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification (round 1)",
+     "time": "2027-03-27T11:59:59Z",
+     "round": 1,
+     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification (round 2)",
+     "time": "2027-03-27T11:59:59Z",
+     "round": 2,
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
+    }
+   ],
+   "history": [
+    {
+     "year": 2023,
+     "deadline": "2022-11-22T11:59:59Z"
+    },
+    {
+     "year": 2024,
+     "deadline": "2023-11-22T11:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-11-23T11:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-11-18T11:59:59Z"
     }
    ]
   },
@@ -1714,6 +1646,78 @@
     {
      "year": 2027,
      "deadline": "2026-10-09T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "cvpr",
+   "title": "CVPR",
+   "description": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "category": "AI",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "cvpr",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://cvpr.thecvf.com/Conferences/2027",
+   "prev_year": 2027,
+   "timezone": "UTC-12",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "estimated_from_year": 2027,
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-11-11T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-11-17T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2028-02-02T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2028-02-26T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-11-18T07:59:59Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-11-15T07:59:59Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-11-14T11:59:59Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-11-17T11:59:59Z"
     }
    ]
   },
