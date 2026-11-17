@@ -11,6 +11,8 @@ Automatically updated deadlines for top conferences in **EDA** (DAC, ICCAD, DATE
 ## Upcoming deadlines
 
 <!-- DEADLINES:START -->
+**Live site with countdowns:** https://fchxwh823.github.io/Conf-Tracker/
+
 Top-tier conferences, sorted by next submission deadline (data last changed 2026-11-17; *est.* = projected from the previous edition).
 
 | Area | Conference | CCF | Next | Deadline | Location |
