@@ -3,7 +3,7 @@
 Automatically updated deadlines for top conferences in **EDA** (DAC, ICCAD, DATE, …),
 **computer architecture** (ISCA, MICRO, HPCA, ASPLOS, …) and **AI** (NeurIPS, ICML, ICLR, CVPR, ACL, …).
 
-- 🌐 **Website** (GitHub Pages): live countdowns, filters, timezone switch, and a 13-month timeline view
+- 🌐 **Website** (GitHub Pages): Chinese/English UI, live countdowns, filters, timezone switch, and a 13-month timeline view
 - 📅 **Calendar feed**: subscribe to `deadlines.ics` on the site (Google / Apple / Outlook Calendar) — reminders 7 days before each submission deadline
 - 🔄 **Auto-update**: a GitHub Action pulls fresh data from [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines) twice a day, then commits and redeploys only when something changed
 - 🔮 **Estimates**: when the next call is not out yet, deadlines are projected from the previous edition and marked *estimated*

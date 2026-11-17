@@ -10,19 +10,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#tracker">跳到会议列表</a>
+  <a class="skip-link" href="#tracker" data-i18n="skip">跳到会议列表</a>
   <div class="ambient ambient-a" aria-hidden="true"></div>
   <div class="ambient ambient-b" aria-hidden="true"></div>
 
   <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="Conf Radar 首页">
+    <a class="brand" href="./" aria-label="Conf Radar 首页" data-i18n-aria="brand_home">
       <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
       <span>CONF<span>RADAR</span></span>
     </a>
-    <nav aria-label="主导航">
-      <a href="#areas">关注领域</a>
-      <a href="#tracker">会议雷达</a>
-      <a href="#method">数据说明</a>
+    <nav aria-label="主导航" data-i18n-aria="main_nav">
+      <a href="#areas" data-i18n="nav_areas">关注领域</a>
+      <a href="#tracker" data-i18n="nav_tracker">会议雷达</a>
+      <a href="#method" data-i18n="nav_method">数据说明</a>
+      <div class="lang-switch" role="group" aria-label="语言 / Language">
+        <button type="button" data-lang="zh" class="on" aria-pressed="true">中</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
       <a id="repo-link" class="nav-action" href="#" hidden>GitHub ↗</a>
     </nav>
   </header>
@@ -30,41 +34,41 @@
   <main>
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="live-dot"></span> RESEARCH DEADLINE RADAR · 每 12 小时更新</p>
-        <h1 id="hero-title">把下一场顶会，<br><em>放进时间线。</em></h1>
-        <p class="hero-intro">聚合 EDA、计算机体系结构和 AI 领域的重要会议。一个页面查看投稿节点、官方链接、倒计时与未来 13 个月日程。</p>
+        <p class="eyebrow" data-i18n-html="hero_eyebrow"><span class="live-dot"></span> RESEARCH DEADLINE RADAR · 每 12 小时更新</p>
+        <h1 id="hero-title" data-i18n-html="hero_title">把下一场顶会，<br><em>放进时间线。</em></h1>
+        <p class="hero-intro" data-i18n="hero_intro">聚合 EDA、计算机体系结构和 AI 领域的重要会议。一个页面查看投稿节点、官方链接、倒计时与未来 13 个月日程。</p>
         <div class="hero-actions">
-          <a class="button primary" href="#tracker">查看全部会议 <span>↓</span></a>
-          <a class="button ghost" id="ics-link" href="deadlines.ics" title="订阅到 Google / Apple / Outlook Calendar">订阅日历 .ics</a>
+          <a class="button primary" href="#tracker" data-i18n-html="hero_all">查看全部会议 <span>↓</span></a>
+          <a class="button ghost" id="ics-link" href="deadlines.ics" title="订阅到 Google / Apple / Outlook Calendar" data-i18n="hero_calendar" data-i18n-title="calendar_title">订阅日历 .ics</a>
         </div>
       </div>
 
-      <aside class="next-panel" aria-label="最近的顶会截止日期">
+      <aside class="next-panel" aria-label="最近的顶会截止日期" data-i18n-aria="next_aria">
         <div class="panel-topline"><span>UP NEXT</span><span class="signal"><i></i> LIVE</span></div>
         <div id="hero-next">
-          <p class="next-kicker" id="hero-next-area">正在读取数据</p>
+          <p class="next-kicker" id="hero-next-area" data-i18n="loading">正在读取数据</p>
           <h2 id="hero-next-name">—</h2>
           <p class="next-deadline" id="hero-next-time">—</p>
           <div class="hero-countdown" id="hero-countdown">--<small>d</small> --:--:--</div>
-          <a id="hero-next-link" href="#tracker">查看会议详情 <span>↗</span></a>
+          <a id="hero-next-link" href="#tracker" data-i18n-html="hero_details">查看会议详情 <span>↗</span></a>
         </div>
         <div class="scan-line" aria-hidden="true"></div>
       </aside>
     </section>
 
-    <section class="stat-strip" aria-label="追踪概览">
+    <section class="stat-strip" aria-label="追踪概览" data-i18n-aria="stats_aria">
       <div class="wrap stats">
-        <div><strong id="stat-tracked">—</strong><span>TRACKED<br>追踪会议</span></div>
-        <div><strong id="stat-open">—</strong><span>ANNOUNCED<br>已公布日期</span></div>
-        <div><strong id="stat-estimated">—</strong><span>FORECAST<br>基于往届估算</span></div>
-        <div><strong id="stat-updated">—</strong><span>DATA CHANGE<br>最近数据变更</span></div>
+        <div><strong id="stat-tracked">—</strong><span data-i18n-html="stat_tracked">TRACKED<br>追踪会议</span></div>
+        <div><strong id="stat-open">—</strong><span data-i18n-html="stat_announced">ANNOUNCED<br>已公布日期</span></div>
+        <div><strong id="stat-estimated">—</strong><span data-i18n-html="stat_forecast">FORECAST<br>基于往届估算</span></div>
+        <div><strong id="stat-updated">—</strong><span data-i18n-html="stat_changed">DATA CHANGE<br>最近数据变更</span></div>
       </div>
     </section>
 
     <section class="areas wrap section" id="areas" aria-labelledby="areas-title">
       <div class="section-heading">
-        <div><p class="eyebrow">FOCUS AREAS</p><h2 id="areas-title">三个研究方向，一张雷达图</h2></div>
-        <p>默认聚焦领域内顶级会议，也可展开查看值得关注的专业会议。</p>
+        <div><p class="eyebrow">FOCUS AREAS</p><h2 id="areas-title" data-i18n="areas_title">三个研究方向，一张雷达图</h2></div>
+        <p data-i18n="areas_intro">默认聚焦领域内顶级会议，也可展开查看值得关注的专业会议。</p>
       </div>
       <div class="area-grid" id="area-grid"></div>
     </section>
@@ -72,60 +76,60 @@
     <section class="tracker-section" id="tracker" aria-labelledby="tracker-title">
       <div class="wrap">
         <div class="section-heading tracker-heading">
-          <div><p class="eyebrow">CONFERENCE TRACKER</p><h2 id="tracker-title">会议时间线</h2></div>
-          <p id="results-summary" aria-live="polite">正在载入会议…</p>
+          <div><p class="eyebrow">CONFERENCE TRACKER</p><h2 id="tracker-title" data-i18n="tracker_title">会议时间线</h2></div>
+          <p id="results-summary" aria-live="polite" data-i18n="loading_conferences">正在载入会议…</p>
         </div>
 
-        <div class="control-bar" aria-label="会议筛选器">
+        <div class="control-bar" aria-label="会议筛选器" data-i18n-aria="filters_aria">
           <div class="control-row">
-            <div class="seg" id="cat-filter" role="group" aria-label="研究领域">
-              <button type="button" data-cat="all" class="on">全部</button>
+            <div class="seg" id="cat-filter" role="group" aria-label="研究领域" data-i18n-aria="areas_aria">
+              <button type="button" data-cat="all" class="on" data-i18n="all">全部</button>
               <button type="button" data-cat="EDA">EDA</button>
-              <button type="button" data-cat="Architecture">体系结构</button>
+              <button type="button" data-cat="Architecture" data-i18n="architecture">体系结构</button>
               <button type="button" data-cat="AI">AI</button>
             </div>
-            <div class="seg view-seg" id="view-switch" role="group" aria-label="显示方式">
-              <button type="button" data-view="list" class="on" title="卡片视图" aria-label="卡片视图">☷ <span>列表</span></button>
-              <button type="button" data-view="timeline" title="时间线视图" aria-label="时间线视图">⌁ <span>时间线</span></button>
+            <div class="seg view-seg" id="view-switch" role="group" aria-label="显示方式" data-i18n-aria="view_aria">
+              <button type="button" data-view="list" class="on" title="卡片视图" aria-label="卡片视图" data-i18n-title="list_title" data-i18n-aria="list_title">☷ <span data-i18n="list">列表</span></button>
+              <button type="button" data-view="timeline" title="时间线视图" aria-label="时间线视图" data-i18n-title="timeline_title" data-i18n-aria="timeline_title">⌁ <span data-i18n="timeline">时间线</span></button>
             </div>
           </div>
           <div class="control-row secondary-controls">
-            <label class="search"><span aria-hidden="true">⌕</span><input type="search" id="q" placeholder="搜索会议、地点或关键词" aria-label="搜索会议"></label>
-            <label class="check"><input type="checkbox" id="top-only" checked><span></span>仅顶会</label>
-            <label class="check"><input type="checkbox" id="show-est" checked><span></span>显示估算</label>
-            <label class="select-wrap"><span>时区</span><select id="tz" aria-label="显示时区">
-              <option value="local">本地时间</option>
+            <label class="search"><span aria-hidden="true">⌕</span><input type="search" id="q" placeholder="搜索会议、地点或关键词" aria-label="搜索会议" data-i18n-placeholder="search_placeholder" data-i18n-aria="search_aria"></label>
+            <label class="check"><input type="checkbox" id="top-only" checked><span></span><b data-i18n="top_only">仅顶会</b></label>
+            <label class="check"><input type="checkbox" id="show-est" checked><span></span><b data-i18n="show_est">显示估算</b></label>
+            <label class="select-wrap"><span data-i18n="timezone">时区</span><select id="tz" aria-label="显示时区" data-i18n-aria="timezone_aria">
+              <option value="local" data-i18n="tz_local">本地时间</option>
               <option value="Etc/GMT+12">AoE (UTC−12)</option>
               <option value="UTC">UTC</option>
-              <option value="Asia/Shanghai">北京时间</option>
-              <option value="America/New_York">美东时间</option>
-              <option value="America/Los_Angeles">美西时间</option>
+              <option value="Asia/Shanghai" data-i18n="tz_beijing">北京时间</option>
+              <option value="America/New_York" data-i18n="tz_eastern">美东时间</option>
+              <option value="America/Los_Angeles" data-i18n="tz_pacific">美西时间</option>
             </select></label>
           </div>
         </div>
 
-        <section id="list" class="conference-list" aria-label="会议列表"></section>
-        <section id="timeline" aria-label="未来 13 个月时间线" hidden></section>
-        <div id="empty" class="empty" hidden><div><strong>没有匹配的会议</strong><span>试试清除搜索词或展开“值得关注”的会议。</span></div></div>
+        <section id="list" class="conference-list" aria-label="会议列表" data-i18n-aria="conference_list"></section>
+        <section id="timeline" aria-label="未来 13 个月时间线" data-i18n-aria="timeline_aria" hidden></section>
+        <div id="empty" class="empty" hidden><div><strong data-i18n="empty_title">没有匹配的会议</strong><span data-i18n="empty_desc">试试清除搜索词或展开“值得关注”的会议。</span></div></div>
       </div>
     </section>
 
     <section class="method wrap section" id="method" aria-labelledby="method-title">
       <div class="method-card">
-        <div><div><p class="eyebrow">HOW IT STAYS CURRENT</p><h2 id="method-title">自动同步，但不假装确定。</h2></div></div>
+        <div><div><p class="eyebrow">HOW IT STAYS CURRENT</p><h2 id="method-title" data-i18n="method_title">自动同步，但不假装确定。</h2></div></div>
         <div class="method-steps">
-          <article><span>01</span><h3>同步</h3><p>GitHub Actions 每 12 小时从社区维护的数据集拉取一次最新会议信息。</p></article>
-          <article><span>02</span><h3>校准</h3><p>规范时区和轮次；双年会按真实周期推演，官网 TBA 与历史估算分开标记。</p></article>
-          <article><span>03</span><h3>发布</h3><p>数据变化后自动更新 GitHub Pages、README 表格和可订阅的日历。</p></article>
+          <article><span>01</span><h3 data-i18n="method_sync">同步</h3><p data-i18n="method_sync_desc">GitHub Actions 每 12 小时从社区维护的数据集拉取一次最新会议信息。</p></article>
+          <article><span>02</span><h3 data-i18n="method_calibrate">校准</h3><p data-i18n="method_calibrate_desc">规范时区和轮次；双年会按真实周期推演，官网 TBA 与历史估算分开标记。</p></article>
+          <article><span>03</span><h3 data-i18n="method_publish">发布</h3><p data-i18n="method_publish_desc">数据变化后自动更新 GitHub Pages、README 表格和可订阅的日历。</p></article>
         </div>
-        <p class="source-note">数据来源：<a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener">ccfddl/ccf-deadlines ↗</a> 与仓库内人工校准。提交前请始终以会议官网 CFP 为准。</p>
+        <p class="source-note" data-i18n-html="source_note">数据来源：<a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener">ccfddl/ccf-deadlines ↗</a> 与仓库内人工校准。提交前请始终以会议官网 CFP 为准。</p>
       </div>
     </section>
   </main>
 
   <footer class="wrap">
     <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CONF<span>RADAR</span></span></div>
-    <p><span id="updated">等待数据</span> · Built for researchers who plan ahead.</p>
+    <p><span id="updated" data-i18n="waiting_data">等待数据</span> · <span data-i18n="footer_tagline">为提前规划的研究者而建。</span></p>
     <p>© <span id="year"></span> · EDA / Architecture / AI</p>
   </footer>
   <script src="app.js"></script>
