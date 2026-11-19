@@ -13,11 +13,10 @@ Automatically updated deadlines for top conferences in **EDA** (DAC, ICCAD, DATE
 <!-- DEADLINES:START -->
 **Live site with countdowns:** https://fchxwh823.github.io/Conf-Tracker/
 
-Top-tier conferences, sorted by next submission deadline (data last changed 2026-11-17; *est.* = projected from the previous edition).
+Top-tier conferences, sorted by next submission deadline (data last changed 2026-11-19; *est.* = projected from the previous edition).
 
 | Area | Conference | CCF | Next | Deadline | Location |
 |---|---|---|---|---|---|
-| EDA | [DAC 2027](https://dac.com/2027/authors/call-for-contributions) | A | Paper | 2026-11-18 17:00 UTC-8 | San Jose, CA |
 | Architecture | [ISCA 2027](https://iscaconf.org/isca2027/) | A | Abstract (round 2) | 2026-12-06 23:59 AoE | Atlanta, Georgia, USA |
 | AI | [ACL 2027](https://2027.aclweb.org/) | A | Paper | 2027-01-04 23:59 UTC-12 | Kyoto, Japan |
 | AI | [IJCAI 2027](https://2027.ijcai.org/) | B | Abstract | 2027-01-04 23:59 AoE | Kyoto, Japan |
@@ -34,6 +33,7 @@ Top-tier conferences, sorted by next submission deadline (data last changed 2026
 | EDA | DATE 2028 <sub>([2027 site](https://www.date-conference.com/call-for-papers))</sub> | B | Abstract *(est.)* | 2027-09-13 23:59 AoE |  |
 | AI | ICLR 2028 <sub>([2027 site](https://iclr.cc/Conferences/2027))</sub> | A | Abstract *(est.)* | 2027-09-18 23:59 AoE |  |
 | AI | CVPR 2028 <sub>([2027 site](https://cvpr.thecvf.com/Conferences/2027))</sub> | A | Abstract *(est.)* | 2027-11-10 23:59 UTC-12 |  |
+| EDA | DAC 2028 <sub>([2027 site](https://dac.com/2027/authors/call-for-contributions))</sub> | A | Abstract *(est.)* | 2027-11-11 17:00 UTC-8 |  |
 | AI | ECCV 2028 <sub>([2026 site](https://eccv.ecva.net/))</sub> | B | Abstract *(est.)* | 2028-02-26 14:00 UTC-8 |  |
 <!-- DEADLINES:END -->
 

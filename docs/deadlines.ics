@@ -7,46 +7,6 @@ X-WR-CALNAME:Conference Deadlines (EDA/Arch/AI)
 X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
-UID:dac-2027-1-abstract_deadline@conf-tracker
-DTSTAMP:20000101T000000Z
-DTSTART:20261112T010000Z
-DURATION:PT1H
-SUMMARY:DAC 2027 Abstract deadline
-DESCRIPTION:Design Automation Conference\nTimezone: UTC-8\nhttps://dac.com/2027/authors/call-for-contributions
-CATEGORIES:EDA
-URL:https://dac.com/2027/authors/call-for-contributions
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:DAC 2027 Abstract deadline
-TRIGGER:-P7D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dac-2027-1-deadline@conf-tracker
-DTSTAMP:20000101T000000Z
-DTSTART:20261119T010000Z
-DURATION:PT1H
-SUMMARY:DAC 2027 Paper deadline
-DESCRIPTION:Design Automation Conference\nTimezone: UTC-8\nhttps://dac.com/2027/authors/call-for-contributions
-CATEGORIES:EDA
-URL:https://dac.com/2027/authors/call-for-contributions
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:DAC 2027 Paper deadline
-TRIGGER:-P7D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dac-2027-1-decision_deadline@conf-tracker
-DTSTAMP:20000101T000000Z
-DTSTART:20270309T115959Z
-DURATION:PT1H
-SUMMARY:DAC 2027 Notification deadline
-DESCRIPTION:Design Automation Conference\nTimezone: UTC-8\nhttps://dac.com/2027/authors/call-for-contributions
-CATEGORIES:EDA
-URL:https://dac.com/2027/authors/call-for-contributions
-END:VEVENT
-BEGIN:VEVENT
 UID:ics-2027-1-abstract_deadline@conf-tracker
 DTSTAMP:20000101T000000Z
 DTSTART:20261202T115959Z
@@ -1058,6 +1018,43 @@ DURATION:PT1H
 SUMMARY:CVPR 2028 Notification deadline (estimated)
 DESCRIPTION:IEEE/CVF Conference on Computer Vision and Pattern Recognition\nTimezone: UTC-12
 CATEGORIES:AI
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2028-1-abstract_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271112T010000Z
+DURATION:PT1H
+SUMMARY:DAC 2028 Abstract deadline (estimated)
+DESCRIPTION:Design Automation Conference\nTimezone: UTC-8
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DAC 2028 Abstract deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2028-1-deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20271119T010000Z
+DURATION:PT1H
+SUMMARY:DAC 2028 Paper deadline (estimated)
+DESCRIPTION:Design Automation Conference\nTimezone: UTC-8
+CATEGORIES:EDA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DAC 2028 Paper deadline (estimated)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-2028-1-decision_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20280309T115959Z
+DURATION:PT1H
+SUMMARY:DAC 2028 Notification deadline (estimated)
+DESCRIPTION:Design Automation Conference\nTimezone: UTC-8
+CATEGORIES:EDA
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2028-1-abstract_deadline@conf-tracker

@@ -1,69 +1,7 @@
 {
- "updated_at": "2026-11-17T12:27:51Z",
+ "updated_at": "2026-11-19T12:27:47Z",
  "source": "https://github.com/ccfddl/ccf-deadlines",
  "conferences": [
-  {
-   "id": "dac",
-   "title": "DAC",
-   "description": "Design Automation Conference",
-   "category": "EDA",
-   "tier": "top",
-   "rank": {
-    "ccf": "A",
-    "core": "A*",
-    "thcpl": "A"
-   },
-   "dblp": "dac",
-   "year": 2027,
-   "link": "https://dac.com/2027/authors/call-for-contributions",
-   "prev_link": null,
-   "prev_year": null,
-   "timezone": "UTC-8",
-   "date": "July 11-14, 2027",
-   "place": "San Jose, CA",
-   "event_start": "2027-07-11",
-   "event_end": "2027-07-14",
-   "status": "open",
-   "estimated_from_year": null,
-   "milestones": [
-    {
-     "key": "abstract_deadline",
-     "label": "Abstract",
-     "time": "2026-11-12T01:00:00Z",
-     "round": 1
-    },
-    {
-     "key": "deadline",
-     "label": "Paper",
-     "time": "2026-11-19T01:00:00Z",
-     "round": 1
-    },
-    {
-     "key": "decision_deadline",
-     "label": "Notification",
-     "time": "2027-03-09T11:59:59Z",
-     "round": 1
-    }
-   ],
-   "history": [
-    {
-     "year": 2023,
-     "deadline": "2022-11-22T01:00:00Z"
-    },
-    {
-     "year": 2024,
-     "deadline": "2023-11-21T01:00:00Z"
-    },
-    {
-     "year": 2025,
-     "deadline": "2024-11-21T01:00:00Z"
-    },
-    {
-     "year": 2026,
-     "deadline": "2025-11-20T01:00:00Z"
-    }
-   ]
-  },
   {
    "id": "ics",
    "title": "ICS",
@@ -1718,6 +1656,71 @@
     {
      "year": 2027,
      "deadline": "2026-11-17T11:59:59Z"
+    }
+   ]
+  },
+  {
+   "id": "dac",
+   "title": "DAC",
+   "description": "Design Automation Conference",
+   "category": "EDA",
+   "tier": "top",
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "dblp": "dac",
+   "year": 2028,
+   "link": null,
+   "prev_link": "https://dac.com/2027/authors/call-for-contributions",
+   "prev_year": 2027,
+   "timezone": "UTC-8",
+   "date": null,
+   "place": null,
+   "event_start": null,
+   "event_end": null,
+   "status": "estimated",
+   "estimated_from_year": 2027,
+   "milestones": [
+    {
+     "key": "abstract_deadline",
+     "label": "Abstract",
+     "time": "2027-11-12T01:00:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "deadline",
+     "label": "Paper",
+     "time": "2027-11-19T01:00:00Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "decision_deadline",
+     "label": "Notification",
+     "time": "2028-03-09T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    }
+   ],
+   "history": [
+    {
+     "year": 2024,
+     "deadline": "2023-11-21T01:00:00Z"
+    },
+    {
+     "year": 2025,
+     "deadline": "2024-11-21T01:00:00Z"
+    },
+    {
+     "year": 2026,
+     "deadline": "2025-11-20T01:00:00Z"
+    },
+    {
+     "year": 2027,
+     "deadline": "2026-11-19T01:00:00Z"
     }
    ]
   },
