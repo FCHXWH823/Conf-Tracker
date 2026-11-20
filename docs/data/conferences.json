@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T12:27:47Z",
+ "updated_at": "2026-11-20T00:39:47Z",
  "source": "https://github.com/ccfddl/ccf-deadlines",
  "conferences": [
   {
@@ -1356,7 +1356,7 @@
     {
      "key": "decision_deadline",
      "label": "Notification",
-     "time": "2027-11-24T11:59:00Z",
+     "time": "2027-11-24T11:59:59Z",
      "round": 1,
      "estimated": true
     }

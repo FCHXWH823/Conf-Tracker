@@ -838,7 +838,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:date-2028-1-decision_deadline@conf-tracker
 DTSTAMP:20000101T000000Z
-DTSTART:20271124T115900Z
+DTSTART:20271124T115959Z
 DURATION:PT1H
 SUMMARY:DATE 2028 Notification deadline (estimated)
 DESCRIPTION:Design\, Automation & Test in Europe\nTimezone: AoE
