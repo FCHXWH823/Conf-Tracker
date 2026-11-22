@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T00:39:47Z",
+ "updated_at": "2026-11-22T00:43:54Z",
  "source": "https://github.com/ccfddl/ccf-deadlines",
  "conferences": [
   {
@@ -932,7 +932,7 @@
     {
      "key": "abstract_deadline",
      "label": "Abstract",
-     "time": "2027-05-05T11:59:00Z",
+     "time": "2027-05-05T11:59:59Z",
      "round": 1,
      "estimated": true
     },
@@ -940,6 +940,13 @@
      "key": "deadline",
      "label": "Paper",
      "time": "2027-05-07T11:59:59Z",
+     "round": 1,
+     "estimated": true
+    },
+    {
+     "key": "rebuttal_deadline",
+     "label": "Rebuttal",
+     "time": "2027-08-04T11:59:59Z",
      "round": 1,
      "estimated": true
     },

@@ -570,7 +570,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2027-1-abstract_deadline@conf-tracker
 DTSTAMP:20000101T000000Z
-DTSTART:20270505T115900Z
+DTSTART:20270505T115959Z
 DURATION:PT1H
 SUMMARY:NeurIPS 2027 Abstract deadline (estimated)
 DESCRIPTION:Conference on Neural Information Processing Systems\nTimezone: UTC+0
@@ -594,6 +594,15 @@ ACTION:DISPLAY
 DESCRIPTION:NeurIPS 2027 Paper deadline (estimated)
 TRIGGER:-P7D
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2027-1-rebuttal_deadline@conf-tracker
+DTSTAMP:20000101T000000Z
+DTSTART:20270804T115959Z
+DURATION:PT1H
+SUMMARY:NeurIPS 2027 Rebuttal deadline (estimated)
+DESCRIPTION:Conference on Neural Information Processing Systems\nTimezone: UTC+0
+CATEGORIES:AI
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2027-1-decision_deadline@conf-tracker
