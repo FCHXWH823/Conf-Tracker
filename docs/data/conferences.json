@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T00:43:54Z",
+ "updated_at": "2026-11-23T00:44:51Z",
  "source": "https://github.com/ccfddl/ccf-deadlines",
  "conferences": [
   {
@@ -19,10 +19,10 @@
    "prev_link": null,
    "prev_year": null,
    "timezone": "AoE",
-   "date": "June 5-11, 2027",
+   "date": "June 5-8, 2027",
    "place": "Atlanta, Georgia, USA",
    "event_start": "2027-06-05",
-   "event_end": "2027-06-11",
+   "event_end": "2027-06-08",
    "status": "open",
    "estimated_from_year": null,
    "milestones": [
