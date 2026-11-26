@@ -2,9 +2,9 @@
 
 ## Design Direction
 
-- Personality: calm instrument panel. Soft slate blue-grey background (`#1a2130`, cards `#232c3d`; changed 2026-11-26 from near-black `#080b12`, which the owner found too dark), mint signal colour, monospace for numbers.
+- Personality: calm instrument panel, now in a **light theme** (2026-11-26: owner found both near-black `#080b12` and slate `#1a2130` too dark). Warm off-white page `#f5f6f3`, tracker band `#eef0ec`, white cards, deep green accent `#06765a`, monospace for numbers.
 - Signature moment: the **UP NEXT** panel with the live countdown to the nearest top-tier deadline.
-- Area colours: EDA `#72dfc2`, Architecture `#f0a866`, AI `#a58bf3` (left bar on cards, timeline dots).
+- Area colours: EDA `#08705f`, Architecture `#9c4f06`, AI `#6a4fc8` (left bar on cards, timeline dots); all ≥ 5.1:1 on the tracker band.
 
 ## Typography
 
@@ -21,8 +21,9 @@
 | Spacing | 4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · 96 (`--s-1` … `--s-9`) |
 | Radius | 6 · 10 · 16 · 22 |
 | Shadow | `--shadow-1` (control bar), `--shadow-2` (hero panel), each two layers |
-| Surfaces | night `#1a2130` · night-2 `#1f2737` · panel `#232c3d` · panel-2 `#2c3649` |
-| Text colours (on panel) | ink `#f5f7fb` 13:1 · muted `#b1bacb` 7.2:1 · faint `#9aa4b8` 5.6:1 (originally `#667085` at 3.6:1, failed AA) |
+| Surfaces | page `#f5f6f3` · tracker band `#eef0ec` · cards `#ffffff` |
+| Text colours (worst case, on `#eef0ec`) | ink `#1b2130` 14:1 · muted `#4d5668` 6.4:1 · faint `#5b6375` 5.2:1 · accent `#06765a` 4.9:1; white on accent 5.6:1 |
+| Status colours | urgent `#b8342b` · soon `#8c5a00` (both ≥ 5.1:1) |
 
 ## Components
 
