@@ -4,6 +4,7 @@
 
 - Personality: calm instrument panel, now in a **light theme** (2026-11-26: owner found both near-black `#080b12` and slate `#1a2130` too dark). Warm off-white page `#f5f6f3`, tracker band `#eef0ec`, white cards, deep green accent `#06765a`, monospace for numbers.
 - Signature moment: the **UP NEXT** panel with the live countdown to the nearest top-tier deadline.
+- Logo: three bars in the three area colours (EDA / Architecture / AI); favicon = white clock on a deep-green `#06765a` tile (was dark tile + mint, mismatched after the light theme).
 - Area colours: EDA `#08705f`, Architecture `#9c4f06`, AI `#6a4fc8` (left bar on cards, timeline dots); all ≥ 5.1:1 on the tracker band.
 
 ## Typography

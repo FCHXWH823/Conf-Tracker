@@ -70,9 +70,9 @@ a:hover { color: var(--mint); }
 .brand > span:last-child > span { color: var(--mint); }
 .brand-mark { display: grid; grid-template-columns: repeat(3, 4px); align-items: end; gap: 3px; width: 18px; height: 18px; }
 .brand-mark i { display: block; width: 4px; background: var(--mint); border-radius: 4px; }
-.brand-mark i:nth-child(1) { height: 8px; opacity: .55; }
-.brand-mark i:nth-child(2) { height: 17px; }
-.brand-mark i:nth-child(3) { height: 12px; opacity: .8; }
+.brand-mark i:nth-child(1) { height: 9px; background: var(--eda); }
+.brand-mark i:nth-child(2) { height: 17px; background: var(--arch); }
+.brand-mark i:nth-child(3) { height: 13px; background: var(--ai); }  /* one bar per area */
 nav { display: flex; align-items: center; gap: var(--s-6); color: var(--muted); font-size: var(--fs-sm); }
 .nav-action { padding: var(--s-2) var(--s-3); border: 1px solid var(--line-bright); border-radius: var(--r-md); color: var(--ink); }
 .lang-switch { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: var(--r-md); background: rgba(20,28,45,.035); }
