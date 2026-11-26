@@ -40,3 +40,7 @@
 | Area filter wrapped/clipped at 375–390px | Visibility | 2 | 2×2 grid on mobile | fixed |
 | Hero CTA label wrapped mid-word on phone | Aesthetic | 1 | `nowrap`, buttons stack | fixed |
 | "Data change 9 days ago" reads as stale | System status | 2 | (stat removed with the strip; real sync time deferred) | deferred |
+| `hidden` ignored: author `display: grid` kept the "no matches" box (240px) always visible and left stale cards under the timeline (since 0b992ad) | Visibility of system status | 3 | Global `[hidden] { display: none !important }` | fixed 2026-11-26 |
+| ECCV timeline row empty with no explanation (next edition beyond the 13-month window) | Help users recognise | 1 | Inline note in the row | fixed 2026-11-26 |
+| Phone tap targets: title links 24px, official link 19px, language buttons 30px (< 44px guideline) | Fitts / mobile | 1 | Enlarge hit areas | open |
+| Estimated markers at 48% opacity look muddy on the lighter slate background | Aesthetic | 1 | Use dashed outline instead of opacity | open |

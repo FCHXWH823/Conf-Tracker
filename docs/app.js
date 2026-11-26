@@ -56,7 +56,7 @@
      
       data_changed: "数据变更于 {date}", data_unknown: "数据更新时间未知", load_failed: "数据载入失败",
       cannot_load: "无法读取会议数据", legend_abstract: "摘要", legend_paper: "论文", legend_result: "Rebuttal / 结果",
-      legend_estimate: "估算", legend_event: "会议日期", legend_today: "今天",
+      legend_estimate: "估算", legend_event: "会议日期", legend_today: "今天", tl_outside: "下一个节点不在这 13 个月内",
     },
     en: {
       page_title: "Conf Radar — Top EDA, Architecture & AI Conference Timeline",
@@ -92,7 +92,7 @@
      
       data_changed: "Data changed {date}", data_unknown: "Data update time unknown", load_failed: "Could not load data",
       cannot_load: "Conference data unavailable", legend_abstract: "Abstract", legend_paper: "Paper", legend_result: "Rebuttal / notification",
-      legend_estimate: "Estimated", legend_event: "Conference", legend_today: "Today",
+      legend_estimate: "Estimated", legend_event: "Conference", legend_today: "Today", tl_outside: "Next milestone is beyond this 13-month window",
     },
   };
 
@@ -288,6 +288,7 @@
         const kind = milestone.key === "abstract_deadline" ? "abs" : milestone.key === "deadline" ? "" : "note";
         marks += `<i class="mk ${kind} ${milestone.estimated ? "est" : ""}" style="left:${position(milestone.t)}%" title="${esc(conference.title)} ${esc(conference.year)} · ${esc(milestoneLabel(milestone))}${milestone.estimated ? esc(t("estimated_paren")) : ""} · ${esc(formatDate(milestone.t))}"></i>`;
       });
+      if (!marks) marks = `<span class="tl-note">${esc(t("tl_outside"))}</span>`;
       const label = conference.link ? `<a href="${esc(conference.link)}" target="_blank" rel="noopener">${esc(conference.title)}</a>` : esc(conference.title);
       return `<div class="tl-row" data-cat="${esc(conference.category)}"><div class="tl-label"><i></i>${label}</div><div class="tl-track">${grid}${today}${marks}</div></div>`;
     }).join("");
