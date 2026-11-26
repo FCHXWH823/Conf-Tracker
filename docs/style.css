@@ -209,7 +209,8 @@ select { height: 36px; padding: 0 var(--s-5) 0 var(--s-3); border: 1px solid var
 .mk { position: absolute; top: 50%; z-index: 2; width: 10px; height: 10px; margin: -5px 0 0 -5px; border: 2px solid var(--c); border-radius: 50%; background: var(--c); cursor: help; }
 .mk.abs { background: var(--panel); }
 .mk.note { width: 8px; height: 8px; margin: -4px 0 0 -4px; border-color: var(--faint); border-radius: 1px; background: var(--faint); transform: rotate(45deg); }
-.mk.est { opacity: .48; }
+.mk.est { outline: 1px dashed var(--c); outline-offset: 2px; }  /* projected: full colour + dashed halo (opacity looked muddy on slate) */
+.mk.note.est { outline-color: var(--faint); }
 .ev { position: absolute; top: 50%; height: 6px; margin-top: -3px; border-radius: 4px; background: var(--c); opacity: .23; min-width: 5px; }
 .legend { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); padding: var(--s-4); border-top: 1px solid var(--line); color: var(--faint); font-size: var(--fs-xs); }
 .legend span { display: inline-flex; align-items: center; }
@@ -263,6 +264,10 @@ footer { display: grid; grid-template-columns: 1fr auto auto; align-items: cente
   .section-heading > p { margin-top: var(--s-2); }
   .tracker-section { padding-block: var(--s-7) var(--s-8); }
   .control-bar { position: static; }
+  /* tap targets ≥ 44px without changing the look */
+  .lang-switch button { height: 38px; min-width: 42px; }
+  .conf-heading h3 a, .official-link { position: relative; }
+  .conf-heading h3 a::after, .official-link::after { content: ""; position: absolute; inset: -13px -6px; }
   .control-row { flex-wrap: wrap; }
   #cat-filter { display: grid; grid-template-columns: repeat(2, 1fr); width: 100%; }
   #cat-filter button { white-space: nowrap; }
