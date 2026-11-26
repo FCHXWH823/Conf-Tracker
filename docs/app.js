@@ -26,16 +26,13 @@
       page_title: "Conf Radar — EDA · Architecture · AI 顶会时间线",
       page_description: "自动更新 EDA、计算机体系结构与 AI 顶级会议的投稿截止日期、倒计时和会议时间线。",
       skip: "跳到会议列表", brand_home: "Conf Radar 首页", main_nav: "主导航",
-      nav_areas: "关注领域", nav_tracker: "会议雷达", nav_method: "数据说明",
+      nav_tracker: "会议雷达", nav_method: "数据说明",
       hero_eyebrow: '<span class="live-dot"></span> RESEARCH DEADLINE RADAR · 每 12 小时更新',
       hero_title: "把下一场顶会，<br><em>放进时间线。</em>",
       hero_intro: "聚合 EDA、计算机体系结构和 AI 领域的重要会议。一个页面查看投稿节点、官方链接、倒计时与未来 13 个月日程。",
       hero_all: "查看全部会议 <span>↓</span>", hero_calendar: "订阅日历 .ics",
       calendar_title: "订阅到 Google / Apple / Outlook Calendar", calendar_address: "订阅地址：{url}",
       next_aria: "最近的顶会截止日期", loading: "正在读取数据", hero_details: "查看会议详情 <span>↗</span>",
-      stats_aria: "追踪概览", stat_tracked: "TRACKED<br>追踪会议", stat_announced: "ANNOUNCED<br>已公布日期",
-      stat_forecast: "FORECAST<br>基于往届估算", stat_changed: "DATA CHANGE<br>最近数据变更",
-      areas_title: "三个研究方向，一张雷达图", areas_intro: "默认聚焦领域内顶级会议，也可展开查看值得关注的专业会议。",
       tracker_title: "会议时间线", loading_conferences: "正在载入会议…", filters_aria: "会议筛选器", areas_aria: "研究领域",
       all: "全部", architecture: "体系结构", view_aria: "显示方式", list: "列表", timeline: "时间线",
       list_title: "卡片视图", timeline_title: "时间线视图", search_placeholder: "搜索会议、地点或关键词", search_aria: "搜索会议",
@@ -50,13 +47,13 @@
       source_note: '数据来源：<a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener">ccfddl/ccf-deadlines ↗</a> 与仓库内人工校准。提交前请始终以会议官网 CFP 为准。',
       waiting_data: "等待数据", footer_tagline: "为提前规划的研究者而建。",
       local_time: "本地时间", beijing_time: "北京时间", eastern_time: "美东时间", pacific_time: "美西时间",
-      passed: "已截止", today: "今天", yesterday: "昨天", days_ago: "{n} 天前",
+      passed: "已截止",
       estimate: "估算", estimate_from: "估算 · 参考 {year}", estimate_tooltip: "会议尚未公布完整 CFP，日期由往届节奏推算",
       announced: "已公布", tba: "待公布", event: "会议", location: "地点", deadline_timezone: "截止时区",
       estimate_short: "估", next_short: "NEXT", next_deadline: "NEXT DEADLINE", waiting_official: "等待官方公布 TBA",
       official_site: "前往会议官网 ↗", event_date: "会议日期", abstract: "摘要", paper: "论文", rebuttal: "Rebuttal", notification: "结果",
       round: "第 {n} 轮", estimated_paren: "（估算）", conference_dates: "会议日期", results: "显示 {shown} / {total} 场会议",
-      nearest: "最近：{name} · {days} 天", deadline_pending: "截止日期待公布", tracked_top: "{top} 顶会 · {total} 全部",
+     
       data_changed: "数据变更于 {date}", data_unknown: "数据更新时间未知", load_failed: "数据载入失败",
       cannot_load: "无法读取会议数据", legend_abstract: "摘要", legend_paper: "论文", legend_result: "Rebuttal / 结果",
       legend_estimate: "估算", legend_event: "会议日期", legend_today: "今天",
@@ -65,16 +62,13 @@
       page_title: "Conf Radar — Top EDA, Architecture & AI Conference Timeline",
       page_description: "Automatically updated deadlines, countdowns, and timelines for top EDA, computer architecture, and AI conferences.",
       skip: "Skip to conference list", brand_home: "Conf Radar home", main_nav: "Main navigation",
-      nav_areas: "Focus areas", nav_tracker: "Conference radar", nav_method: "Data notes",
+      nav_tracker: "Conference radar", nav_method: "Data notes",
       hero_eyebrow: '<span class="live-dot"></span> RESEARCH DEADLINE RADAR · UPDATED EVERY 12 HOURS',
       hero_title: "Put your next top venue<br><em>on the timeline.</em>",
       hero_intro: "Track leading conferences across EDA, computer architecture, and AI. See submission milestones, official links, live countdowns, and the next 13 months at a glance.",
       hero_all: "Explore conferences <span>↓</span>", hero_calendar: "Subscribe .ics",
       calendar_title: "Subscribe with Google, Apple, or Outlook Calendar", calendar_address: "Subscription URL: {url}",
       next_aria: "Nearest top-conference deadline", loading: "Loading data", hero_details: "View conference details <span>↗</span>",
-      stats_aria: "Tracking overview", stat_tracked: "TRACKED<br>Conferences", stat_announced: "ANNOUNCED<br>Official dates",
-      stat_forecast: "FORECAST<br>Historical estimate", stat_changed: "DATA CHANGE<br>Last update",
-      areas_title: "Three research areas. One radar.", areas_intro: "Top venues are shown by default; expand the list to include notable specialist conferences.",
       tracker_title: "Conference timeline", loading_conferences: "Loading conferences…", filters_aria: "Conference filters", areas_aria: "Research area",
       all: "All", architecture: "Architecture", view_aria: "View mode", list: "List", timeline: "Timeline",
       list_title: "Card view", timeline_title: "Timeline view", search_placeholder: "Search conferences, places, or keywords", search_aria: "Search conferences",
@@ -89,13 +83,13 @@
       source_note: 'Sources: <a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener">ccfddl/ccf-deadlines ↗</a> plus manual corrections in this repository. Always verify against the official CFP before submitting.',
       waiting_data: "Waiting for data", footer_tagline: "Built for researchers who plan ahead.",
       local_time: "Local time", beijing_time: "Beijing time", eastern_time: "US Eastern", pacific_time: "US Pacific",
-      passed: "Closed", today: "Today", yesterday: "Yesterday", days_ago: "{n} days ago",
+      passed: "Closed",
       estimate: "Estimated", estimate_from: "Estimated · from {year}", estimate_tooltip: "The full CFP is not yet available; dates are projected from the previous edition",
       announced: "Announced", tba: "TBA", event: "When", location: "Where", deadline_timezone: "Deadline zone",
       estimate_short: "est.", next_short: "NEXT", next_deadline: "NEXT DEADLINE", waiting_official: "Waiting for official dates · TBA",
       official_site: "Official conference site ↗", event_date: "Conference dates", abstract: "Abstract", paper: "Paper", rebuttal: "Rebuttal", notification: "Notification",
       round: "round {n}", estimated_paren: " (estimated)", conference_dates: "Conference dates", results: "Showing {shown} of {total} conferences",
-      nearest: "Next: {name} · {days} days", deadline_pending: "Deadline TBA", tracked_top: "{top} TOP · {total} TOTAL",
+     
       data_changed: "Data changed {date}", data_unknown: "Data update time unknown", load_failed: "Could not load data",
       cannot_load: "Conference data unavailable", legend_abstract: "Abstract", legend_paper: "Paper", legend_result: "Rebuttal / notification",
       legend_estimate: "Estimated", legend_event: "Conference", legend_today: "Today",
@@ -176,13 +170,6 @@
     return `${days}<small>d</small> ${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
   }
 
-  function shortAge(date) {
-    const days = Math.max(0, Math.floor((Date.now() - date.getTime()) / DAY));
-    if (days === 0) return t("today");
-    if (days === 1) return t("yesterday");
-    if (days < 30) return t("days_ago", { n: days });
-    return new Intl.DateTimeFormat(locale(), { month: "short", day: "numeric" }).format(date);
-  }
 
   function milestoneLabel(milestone) {
     const key = { abstract_deadline: "abstract", deadline: "paper", rebuttal_deadline: "rebuttal", decision_deadline: "notification" }[milestone.key];
@@ -287,7 +274,7 @@
       months += `<span style="left:${position(date)}%">${esc(label)}</span>`;
       grid += `<i class="tl-grid" style="left:${position(date)}%"></i>`;
     }
-    const today = inRange(now) ? `<i class="tl-today" style="left:${position(now)}%" title="${esc(t("today"))}"></i>` : "";
+    const today = inRange(now) ? `<i class="tl-today" style="left:${position(now)}%" title="${esc(t("legend_today"))}"></i>` : "";
     const rows = [...list].sort((a, b) => AREA_ORDER.indexOf(a.category) - AREA_ORDER.indexOf(b.category)
       || ((a.next?.t ?? Infinity) - (b.next?.t ?? Infinity))).map((conference) => {
       let marks = "";
@@ -312,10 +299,6 @@
 
   function renderHero() {
     const next = conferences.filter((conference) => conference.tier === "top" && conference.next).sort((a, b) => a.next.t - b.next.t)[0];
-    $("#stat-tracked").textContent = conferences.length;
-    $("#stat-open").textContent = conferences.filter((conference) => conference.status === "open").length;
-    $("#stat-estimated").textContent = conferences.filter((conference) => conference.estimated).length;
-    $("#stat-updated").textContent = updatedAt ? shortAge(updatedAt) : "—";
     if (!next) return;
     $("#hero-next-area").textContent = `${areaCopy(next.category).title} · ${milestoneLabel(next.next)}${next.estimated ? ` · ${t("estimate")}` : ""}`;
     $("#hero-next-name").textContent = `${next.title} ${next.year || ""}`;
@@ -325,17 +308,6 @@
     $("#hero-next-link").href = `#conf-${next.id}`;
   }
 
-  function renderAreas() {
-    $("#area-grid").innerHTML = AREA_ORDER.map((category) => {
-      const all = conferences.filter((conference) => conference.category === category);
-      const top = all.filter((conference) => conference.tier === "top");
-      const next = top.filter((conference) => conference.next).sort((a, b) => a.next.t - b.next.t)[0];
-      const nextText = next ? t("nearest", { name: next.title, days: Math.max(0, Math.ceil((next.next.t - Date.now()) / DAY)) }) : t("deadline_pending");
-      return `<button type="button" class="area-card" data-cat="${esc(category)}"><span class="area-card-top"><span class="area-icon">${AREA[category].icon}</span>
-        <span class="area-count">${esc(t("tracked_top", { top: top.length, total: all.length }))}</span></span>
-        <h3>${esc(areaCopy(category).title)}</h3><p>${esc(areaCopy(category).desc)}</p><span class="area-next"><i></i>${esc(nextText)}</span></button>`;
-    }).join("");
-  }
 
   function renderUpdated() {
     $("#updated").textContent = updatedAt ? t("data_changed", { date: formatDate(updatedAt) }) : t("data_unknown");
@@ -353,7 +325,16 @@
     });
   }
 
+  function renderCounts() {
+    const pool = conferences.filter((c) => (!state.topOnly || c.tier === "top") && (state.showEst || !c.estimated));
+    document.querySelectorAll("[data-count]").forEach((element) => {
+      const cat = element.dataset.count;
+      element.textContent = pool.filter((c) => cat === "all" || c.category === cat).length;
+    });
+  }
+
   function render() {
+    renderCounts();
     const list = visibleConferences();
     $("#results-summary").textContent = t("results", { shown: list.length, total: conferences.length });
     $("#empty").hidden = list.length > 0;
@@ -399,7 +380,6 @@
     applyTranslations();
     configureRepoLink();
     syncControls();
-    renderAreas();
     render();
     renderHero();
     renderUpdated();
@@ -421,10 +401,6 @@
     $("#show-est").addEventListener("change", (event) => { state.showEst = event.target.checked; update(); });
     $("#tz").addEventListener("change", (event) => { state.tz = event.target.value; update(); });
     $("#q").addEventListener("input", (event) => { state.q = event.target.value; render(); });
-    $("#area-grid").addEventListener("click", (event) => {
-      const card = event.target.closest("button[data-cat]"); if (!card) return;
-      state.cat = card.dataset.cat; update(); $("#tracker").scrollIntoView({ behavior: "smooth" });
-    });
   }
 
   async function init() {
@@ -447,7 +423,7 @@
       $("#empty").innerHTML = `<div><strong>${esc(t("cannot_load"))}</strong><span>${esc(error.message)}</span></div>`;
       return;
     }
-    renderHero(); renderAreas(); render();
+    renderHero(); render();
     setInterval(tick, 1_000);
     setInterval(() => { conferences = prepare(rawConferences); render(); renderHero(); }, 60_000);
   }

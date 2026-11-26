@@ -11,8 +11,7 @@
 </head>
 <body>
   <a class="skip-link" href="#tracker" data-i18n="skip">跳到会议列表</a>
-  <div class="ambient ambient-a" aria-hidden="true"></div>
-  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="ambient-layer" aria-hidden="true"><div class="ambient ambient-a"></div><div class="ambient ambient-b"></div></div>
 
   <header class="site-header wrap">
     <a class="brand" href="./" aria-label="Conf Radar 首页" data-i18n-aria="brand_home">
@@ -20,7 +19,6 @@
       <span>CONF<span>RADAR</span></span>
     </a>
     <nav aria-label="主导航" data-i18n-aria="main_nav">
-      <a href="#areas" data-i18n="nav_areas">关注领域</a>
       <a href="#tracker" data-i18n="nav_tracker">会议雷达</a>
       <a href="#method" data-i18n="nav_method">数据说明</a>
       <div class="lang-switch" role="group" aria-label="语言 / Language">
@@ -56,22 +54,6 @@
       </aside>
     </section>
 
-    <section class="stat-strip" aria-label="追踪概览" data-i18n-aria="stats_aria">
-      <div class="wrap stats">
-        <div><strong id="stat-tracked">—</strong><span data-i18n-html="stat_tracked">TRACKED<br>追踪会议</span></div>
-        <div><strong id="stat-open">—</strong><span data-i18n-html="stat_announced">ANNOUNCED<br>已公布日期</span></div>
-        <div><strong id="stat-estimated">—</strong><span data-i18n-html="stat_forecast">FORECAST<br>基于往届估算</span></div>
-        <div><strong id="stat-updated">—</strong><span data-i18n-html="stat_changed">DATA CHANGE<br>最近数据变更</span></div>
-      </div>
-    </section>
-
-    <section class="areas wrap section" id="areas" aria-labelledby="areas-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">FOCUS AREAS</p><h2 id="areas-title" data-i18n="areas_title">三个研究方向，一张雷达图</h2></div>
-        <p data-i18n="areas_intro">默认聚焦领域内顶级会议，也可展开查看值得关注的专业会议。</p>
-      </div>
-      <div class="area-grid" id="area-grid"></div>
-    </section>
 
     <section class="tracker-section" id="tracker" aria-labelledby="tracker-title">
       <div class="wrap">
@@ -83,10 +65,10 @@
         <div class="control-bar" aria-label="会议筛选器" data-i18n-aria="filters_aria">
           <div class="control-row">
             <div class="seg" id="cat-filter" role="group" aria-label="研究领域" data-i18n-aria="areas_aria">
-              <button type="button" data-cat="all" class="on" data-i18n="all">全部</button>
-              <button type="button" data-cat="EDA">EDA</button>
-              <button type="button" data-cat="Architecture" data-i18n="architecture">体系结构</button>
-              <button type="button" data-cat="AI">AI</button>
+              <button type="button" data-cat="all" class="on"><span data-i18n="all">全部</span><span class="count" data-count="all"></span></button>
+              <button type="button" data-cat="EDA"><span>EDA</span><span class="count" data-count="EDA"></span></button>
+              <button type="button" data-cat="Architecture"><span data-i18n="architecture">体系结构</span><span class="count" data-count="Architecture"></span></button>
+              <button type="button" data-cat="AI"><span>AI</span><span class="count" data-count="AI"></span></button>
             </div>
             <div class="seg view-seg" id="view-switch" role="group" aria-label="显示方式" data-i18n-aria="view_aria">
               <button type="button" data-view="list" class="on" title="卡片视图" aria-label="卡片视图" data-i18n-title="list_title" data-i18n-aria="list_title">☷ <span data-i18n="list">列表</span></button>
